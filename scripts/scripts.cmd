@@ -1,4 +1,4 @@
 ECHO OFF
-explorer %DN-CONT%
+explorer %DN-CONT%\scripts
 EXIT
 
