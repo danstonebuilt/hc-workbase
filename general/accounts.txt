@@ -1,1 +1,5 @@
 daanselmo@hcrp.fmrp.usp.br
+
+ORACLE
+Login: daanselmo
+pass: hcrp1234
