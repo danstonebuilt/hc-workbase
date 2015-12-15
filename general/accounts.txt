@@ -1,5 +1,13 @@
 daanselmo@hcrp.fmrp.usp.br
+pass: hcrp6373
+Nome da conta: daanselmo	
+Servidor pop3: hcrp.fmrp.usp.br
+Servidor SMTP  hcrp.fmrp.usp.br
 
 ORACLE
 Login: daanselmo
 pass: hcrp1234
+
+CHANNEL
+Login: daanselmo
+ Pass: #cha132104ALL$

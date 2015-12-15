@@ -1,0 +1,15 @@
+login: DAANSELMO
+  pss: hcf132104AL
+
+Rede e instalações
+User: cia
+pass: CIA2008
+ramal: 2986
+
+\\10.165.1.250
+
+
+
+
+
+

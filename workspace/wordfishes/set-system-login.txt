@@ -1,2 +1,0 @@
-login: DAANSELMO
-  pss: fhc132104AL
