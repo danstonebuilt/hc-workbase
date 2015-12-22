@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D1D14C4-2722-4A81-BCBD-1581E6BCC109}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hcrp.Framework</RootNamespace>
+    <AssemblyName>Hcrp.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\Faepa\Faepa.MVCProjetoBase\Faepa.MVCProjetoBase\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\BinRelease\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Hcrp.Acesso.Dominio">
+      <HintPath>..\BinRelease\Hcrp.Acesso.Dominio.dll</HintPath>
+    </Reference>
+    <Reference Include="Hcrp.Acesso.Infra">
+      <HintPath>..\BinRelease\Hcrp.Acesso.Infra.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=1.102.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Referencias\Oracle_32\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Cid.cs" />
+    <Compile Include="BLL\CidCapitulo.cs" />
+    <Compile Include="BLL\EspecialidadeHC.cs" />
+    <Compile Include="BLL\MenuSistema.cs" />
+    <Compile Include="BLL\TipoAtendimento.cs" />
+    <Compile Include="Classes\AgendaPaciente.cs" />
+    <Compile Include="Classes\Alinea.cs" />
+    <Compile Include="Classes\AssociacaoUsuarioLocal.cs" />
+    <Compile Include="Classes\Atendimento.cs" />
+    <Compile Include="Classes\BannerRevista.cs" />
+    <Compile Include="Classes\BaseClass.cs" />
+    <Compile Include="Classes\CentroDeCusto.cs" />
+    <Compile Include="Classes\Cid.cs" />
+    <Compile Include="Classes\CidCapitulo.cs" />
+    <Compile Include="Classes\ConfigProcedimentoSadtComAgenda.cs" />
+    <Compile Include="Classes\ConsumoMaterialCCMaterial.cs" />
+    <Compile Include="Classes\ConsumoMaterialCentroCusto.cs" />
+    <Compile Include="Classes\ConsumoMaterialGrupo.cs" />
+    <Compile Include="Classes\ConsumoMensalMaterial.cs" />
+    <Compile Include="Classes\DadosEstatisticos.cs" />
+    <Compile Include="Classes\Drs.cs" />
+    <Compile Include="Classes\EixoTematico.cs" />
+    <Compile Include="Classes\Especialidade.cs" />
+    <Compile Include="Classes\FormularioPesquisaOpiniao.cs" />
+    <Compile Include="Classes\FormularioPesquisaOpiniaoConvite.cs" />
+    <Compile Include="Classes\GrauInstrucao.cs" />
+    <Compile Include="Classes\Grupo.cs" />
+    <Compile Include="Classes\GrupoDeCentroDeCusto.cs" />
+    <Compile Include="Classes\GrupoLocal.cs" />
+    <Compile Include="Classes\GrupoPlanoContaItem.cs" />
+    <Compile Include="Classes\ImpressoraRede.cs" />
+    <Compile Include="Classes\IntegraAplicativo.cs" />
+    <Compile Include="Classes\ItemPedidoAtendimentoArquivo.cs" />
+    <Compile Include="Classes\ItemPedidoAtendimentoObs.cs" />
+    <Compile Include="Classes\Local.cs" />
+    <Compile Include="Classes\LocalLeitoUnidadeInternacao.cs" />
+    <Compile Include="Classes\LogExtraCorporea.cs" />
+    <Compile Include="Classes\LogSadt.cs" />
+    <Compile Include="Classes\MamaAchado.cs" />
+    <Compile Include="Classes\MamaControleLesao.cs" />
+    <Compile Include="Classes\MamaLocalizacao.cs" />
+    <Compile Include="Classes\Mamografia.cs" />
+    <Compile Include="Classes\Material.cs" />
+    <Compile Include="Classes\MaterialNaoApropriacaoCC.cs" />
+    <Compile Include="Classes\MotivoEncaminhamento.cs" />
+    <Compile Include="Classes\MovimentacaoPaciente.cs" />
+    <Compile Include="Classes\ObservacaoItemAtendimento.cs" />
+    <Compile Include="Classes\ParametroMonitorizacao.cs" />
+    <Compile Include="Classes\ParametroMonitorizacaoPaciente.cs" />
+    <Compile Include="Classes\PesquisaGenerica.cs" />
+    <Compile Include="Classes\PesquisaSatisfacaoCrh.cs" />
+    <Compile Include="Classes\PesquisaSatisfacaoCrhQualidade.cs" />
+    <Compile Include="Classes\PlanoDeConta.cs" />
+    <Compile Include="Classes\PlanoDeContaItem.cs" />
+    <Compile Include="Classes\ProcedMatCenCusto.cs" />
+    <Compile Include="Classes\ProtocoloConsultaCardio.cs" />
+    <Compile Include="Classes\ProtocoloConsultaOftalmoExame.cs" />
+    <Compile Include="Classes\ProtocoloConsultaOftalmologia.cs" />
+    <Compile Include="Classes\ProtocoloConsultaOftalmologiaExame.cs" />
+    <Compile Include="Classes\ProtocoloConsultaOftalmoProc.cs" />
+    <Compile Include="Classes\ProtocoloExameCardio.cs" />
+    <Compile Include="Classes\ProtocoloReabilitacao.cs" />
+    <Compile Include="Classes\ProtocoloReabilitacaoCIR.cs" />
+    <Compile Include="Classes\ProtocoloReabilitacaoCIRFon.cs" />
+    <Compile Include="Classes\ProtocoloReabilitacaoQuest.cs" />
+    <Compile Include="Classes\RateioMaterialGrupoCencusto.cs" />
+    <Compile Include="Classes\SiteInformacao.cs" />
+    <Compile Include="Classes\SiteInformacaoGaleria.cs" />
+    <Compile Include="Classes\ItemPedidoAtendimento.cs" />
+    <Compile Include="Classes\Logradouro.cs" />
+    <Compile Include="Classes\MapeamentoLocal.cs" />
+    <Compile Include="Classes\Motivo.cs" />
+    <Compile Include="Classes\MovimentacaoRevista.cs" />
+    <Compile Include="Classes\Municipio.cs" />
+    <Compile Include="Classes\OrgaoEmissor.cs" />
+    <Compile Include="Classes\Paciente.cs" />
+    <Compile Include="Classes\Pais.cs" />
+    <Compile Include="Classes\ParametrosOracle.cs" />
+    <Compile Include="Classes\PedidoAtendimento.cs" />
+    <Compile Include="Classes\ProcedimentoHc.cs" />
+    <Compile Include="Classes\Profissional.cs" />
+    <Compile Include="Classes\RevistaArtigo.cs" />
+    <Compile Include="Classes\RevistaArtigoAnexo.cs" />
+    <Compile Include="Classes\AutorRevistaArtigo.cs" />
+    <Compile Include="Classes\ConfiguracaoSistema.cs" />
+    <Compile Include="Classes\DireitosUsuario.cs" />
+    <Compile Include="Classes\RevistaEdicao.cs" />
+    <Compile Include="Classes\Instituicao.cs" />
+    <Compile Include="Classes\Instituto.cs" />
+    <Compile Include="Classes\ParecerRevistaArtigo.cs" />
+    <Compile Include="Classes\RevisaoRevistaArtigo.cs" />
+    <Compile Include="Classes\Revista.cs" />
+    <Compile Include="Classes\Servico.cs" />
+    <Compile Include="Classes\ServicoSadt.cs" />
+    <Compile Include="Classes\Site.cs" />
+    <Compile Include="Classes\SiteDestaques.cs" />
+    <Compile Include="Classes\SiteInformacaoLink.cs" />
+    <Compile Include="Classes\SiteMenuHorizontal.cs" />
+    <Compile Include="Classes\SiteMenuVertical.cs" />
+    <Compile Include="Classes\SituacaoHc.cs" />
+    <Compile Include="Classes\SubGrupo.cs" />
+    <Compile Include="Classes\TipoAtendimento.cs" />
+    <Compile Include="Classes\TipoConsulta.cs" />
+    <Compile Include="Classes\TipoProtocoloAtendimento.cs" />
+    <Compile Include="Classes\Unidade.cs" />
+    <Compile Include="Classes\UnidadeFederacao.cs" />
+    <Compile Include="Classes\UnidadesInternacaoInstituto.cs" />
+    <Compile Include="Classes\Usuario.cs" />
+    <Compile Include="Classes\UsuarioConexao.cs" />
+    <Compile Include="Classes\UsuarioRevisorRevista.cs" />
+    <Compile Include="Classes\VagasDrs.cs" />
+    <Compile Include="Dal\AgendaPaciente.cs" />
+    <Compile Include="Dal\Alinea.cs" />
+    <Compile Include="Dal\Atendimento.cs" />
+    <Compile Include="Dal\AutorRevistaArtigo.cs" />
+    <Compile Include="Dal\BannerRevista.cs" />
+    <Compile Include="Dal\CentroDeCusto.cs" />
+    <Compile Include="Dal\Cid.cs" />
+    <Compile Include="Dal\CidCapitulo.cs" />
+    <Compile Include="Dal\ConfigProcedimentoSadtComAgenda.cs" />
+    <Compile Include="Dal\ConsumoMaterialCCMaterial.cs" />
+    <Compile Include="Dal\ConsumoMaterialCentroCusto.cs" />
+    <Compile Include="Dal\ConsumoMaterialGrupo.cs" />
+    <Compile Include="Dal\ConsumoMensalMaterial.cs" />
+    <Compile Include="Dal\DadosServidor.cs" />
+    <Compile Include="Dal\DireitosUsuario.cs" />
+    <Compile Include="Dal\Drs.cs" />
+    <Compile Include="Dal\EixoTematico.cs" />
+    <Compile Include="Dal\Especialidade.cs" />
+    <Compile Include="Dal\FormularioPesquisaOpiniao.cs" />
+    <Compile Include="Dal\FormularioPesquisaOpiniaoConvite.cs" />
+    <Compile Include="Dal\GrauInstrucao.cs" />
+    <Compile Include="Dal\Grupo.cs" />
+    <Compile Include="Dal\GrupoDeCentroDeCusto.cs" />
+    <Compile Include="Dal\GrupoLocal.cs" />
+    <Compile Include="Dal\GrupoPlanoContaItem.cs" />
+    <Compile Include="Dal\ImpressoraRede.cs" />
+    <Compile Include="Dal\IntegracaoDeAplicativo.cs" />
+    <Compile Include="Dal\ItemPedidoAtendimentoObs.cs" />
+    <Compile Include="Dal\Local.cs" />
+    <Compile Include="Dal\LocalLeitoUnidadeInternacao.cs" />
+    <Compile Include="Dal\LogExtraCorporea.cs" />
+    <Compile Include="Dal\LogSadt.cs" />
+    <Compile Include="Dal\MamaAchado.cs" />
+    <Compile Include="Dal\MamaControleLesao.cs" />
+    <Compile Include="Dal\MamaLocalizacao.cs" />
+    <Compile Include="Dal\Mamografia.cs" />
+    <Compile Include="Dal\Material.cs" />
+    <Compile Include="Dal\MaterialNaoApropriacaoCC.cs" />
+    <Compile Include="Dal\MenuSistema.cs" />
+    <Compile Include="Dal\MotivoEncaminhamento.cs" />
+    <Compile Include="Dal\MovimentacaoPaciente.cs" />
+    <Compile Include="Dal\ObservacaoItemAtendimento.cs" />
+    <Compile Include="Dal\ParametroMonitorizacao.cs" />
+    <Compile Include="Dal\ParametroMonitorizacaoPaciente.cs" />
+    <Compile Include="Dal\PesquisaGenerica.cs" />
+    <Compile Include="Dal\PesquisaSatisfacaoCrh.cs" />
+    <Compile Include="Dal\PesquisaSatisfacaoCrhQualidade.cs" />
+    <Compile Include="Dal\PlanoDeConta.cs" />
+    <Compile Include="Dal\PlanoDeContaItem.cs" />
+    <Compile Include="Dal\ProcedMatCenCusto.cs" />
+    <Compile Include="Dal\Profissional.cs" />
+    <Compile Include="Dal\ProtocoloConsultaOftalmoExame.cs" />
+    <Compile Include="Dal\ProtocoloConsultaOftalmologia.cs" />
+    <Compile Include="Dal\ProtocoloConsultaOftalmoProc.cs" />
+    <Compile Include="Dal\ProtocoloReabilitacaoCIR.cs" />
+    <Compile Include="Dal\ProtocoloReabilitacaoCIRFon.cs" />
+    <Compile Include="Dal\ProtocoloReabilitacaoQuest.cs" />
+    <Compile Include="Dal\RateioMaterialGrupoCencusto.cs" />
+    <Compile Include="Dal\SiteInformacao.cs" />
+    <Compile Include="Dal\SiteInformacaoGaleria.cs" />
+    <Compile Include="Dal\ItemPedidoAtendimento.cs" />
+    <Compile Include="Dal\Logradouro.cs" />
+    <Compile Include="Dal\MapeamentoLocal.cs" />
+    <Compile Include="Dal\Motivo.cs" />
+    <Compile Include="Dal\Municipio.cs" />
+    <Compile Include="Dal\OrgaoEmissor.cs" />
+    <Compile Include="Dal\Paciente.cs" />
+    <Compile Include="Dal\Pais.cs" />
+    <Compile Include="Dal\ParecerRevistaArtigo.cs" />
+    <Compile Include="Dal\PedidoAtendimento.cs" />
+    <Compile Include="Dal\ProcedimentoHc.cs" />
+    <Compile Include="Dal\RevisaoRevistaArtigo.cs" />
+    <Compile Include="Dal\RevistaArtigoAnexo.cs" />
+    <Compile Include="Dal\RevistaEdicao.cs" />
+    <Compile Include="Dal\Instituicao.cs" />
+    <Compile Include="Dal\Instituto.cs" />
+    <Compile Include="Dal\Revista.cs" />
+    <Compile Include="Dal\RevistaArtigo.cs" />
+    <Compile Include="Dal\Servico.cs" />
+    <Compile Include="Dal\ServicoSadt.cs" />
+    <Compile Include="Dal\Site.cs" />
+    <Compile Include="Dal\SiteDestaques.cs" />
+    <Compile Include="Dal\SiteInformacaoLink.cs" />
+    <Compile Include="Dal\SiteMenuHorizontal.cs" />
+    <Compile Include="Dal\SiteMenuVertical.cs" />
+    <Compile Include="Dal\SituacaoHc.cs" />
+    <Compile Include="Dal\SubGrupo.cs" />
+    <Compile Include="Dal\TipoAtendimento.cs" />
+    <Compile Include="Dal\TipoConsulta.cs" />
+    <Compile Include="Dal\TipoProtocoloAtendimento.cs" />
+    <Compile Include="Dal\Unidade.cs" />
+    <Compile Include="Dal\UnidadeFederacao.cs" />
+    <Compile Include="Dal\UnidadesInternacaoInstituto.cs" />
+    <Compile Include="Dal\Usuario.cs" />
+    <Compile Include="Dal\UsuarioRevisorRevista.cs" />
+    <Compile Include="Dal\VagasDrs.cs" />
+    <Compile Include="Entity\EspecialidadeHC.cs" />
+    <Compile Include="Entity\IEntityHC.cs" />
+    <Compile Include="Entity\MenuSistema.cs" />
+    <Compile Include="Entity\TipoAtendimento.cs" />
+    <Compile Include="Infra\AcessoDado\AcessoDado.cs" />
+    <Compile Include="Infra\AcessoDado\RepositorioBase.cs" />
+    <Compile Include="Infra\AcessoDado\RepositorioUtil.cs" />
+    <Compile Include="Infra\Util\Cripto.cs" />
+    <Compile Include="Infra\Util\Criptografia\ByteArrays.cs" />
+    <Compile Include="Infra\Util\Criptografia\Encryption.cs" />
+    <Compile Include="Infra\Util\Criptografia\Encryption64.cs" />
+    <Compile Include="Infra\Util\Criptografia\Hashing.cs" />
+    <Compile Include="Infra\Util\CustomPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Infra\Util\DataReader.cs" />
+    <Compile Include="Infra\Util\EnumUtil.cs" />
+    <Compile Include="Infra\Util\ErrorHandlingModule.cs" />
+    <Compile Include="Infra\Util\Parametrizacao.cs" />
+    <Compile Include="Infra\Util\QueryStringSegura.cs" />
+    <Compile Include="Infra\Util\TratamentoDeErro.cs" />
+    <Compile Include="Infra\Util\Util.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\BaseMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Diagramas\Custos.cd" />
+    <None Include="Diagramas\PesquisasOpiniao\PesquisasOpiniao.cd" />
+    <None Include="Diagramas\Sara\AgendamentoCidade.cd" />
+    <None Include="Diagramas\Sara\AgedamentoPorPaciente.cd" />
+    <None Include="Diagramas\Sara\PedidoExameGeral.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!--<Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

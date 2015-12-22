@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B298C12-A0C5-4D59-AD74-F117ED6E8901}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hcrp.CarroUrgenciaPsicoativo.DAL</RootNamespace>
+    <AssemblyName>Hcrp.CarroUrgenciaPsicoativo.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\trunk\projetoweb4\Referencias\Oracle_32\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtendimentoPaciente.cs" />
+    <Compile Include="BemPatrimonial.cs" />
+    <Compile Include="CentroDeCusto.cs" />
+    <Compile Include="HistoricoLacreRepositorio.cs" />
+    <Compile Include="IdentificacaoLocal.cs" />
+    <Compile Include="Instituto.cs" />
+    <Compile Include="IntegraAplicativo.cs" />
+    <Compile Include="ItensListaControle.cs" />
+    <Compile Include="LacreOcorrencia.cs" />
+    <Compile Include="LacreRepositorio.cs" />
+    <Compile Include="LacreRepositorioComplemento.cs" />
+    <Compile Include="LacreRepositorioEquipamento.cs" />
+    <Compile Include="LacreRepositorioItens.cs" />
+    <Compile Include="LacreRepositorioUtilizacao.cs" />
+    <Compile Include="LacreTipoOcorrencia.cs" />
+    <Compile Include="ListaControle.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Lote.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="Paciente.cs" />
+    <Compile Include="Perfil.cs" />
+    <Compile Include="Programa.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositorioListaControle.cs" />
+    <Compile Include="TempGenericaHC.cs" />
+    <Compile Include="TipoBem.cs" />
+    <Compile Include="TipoPatrimonio.cs" />
+    <Compile Include="TipoRepositorioListaControle.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\trunk\projetoweb4\Hcrp.Framework\Hcrp.Framework.csproj">
+      <Project>{4D1D14C4-2722-4A81-BCBD-1581E6BCC109}</Project>
+      <Name>Hcrp.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hcrp.CarroUrgenciaPsicoativo.Entity\Hcrp.CarroUrgenciaPsicoativo.Entity.csproj">
+      <Project>{1F6C4AA9-5653-4BD1-A0E0-64F2B52ED641}</Project>
+      <Name>Hcrp.CarroUrgenciaPsicoativo.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

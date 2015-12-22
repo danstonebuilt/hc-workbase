@@ -1,0 +1,9054 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_container {
+    position:absolute;
+    left:1px;
+    top:61px;
+    width:3980px;
+    height:4030px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:3980px;
+    height:4030px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:2007px;
+    width:3976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_container {
+    position:absolute;
+    left:1px;
+    top:1px;
+    width:3980px;
+    height:64px;
+}
+
+#u2_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:3980px;
+    height:64px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:3976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_container {
+    position:absolute;
+    left:64px;
+    top:1px;
+    width:347px;
+    height:77px;
+}
+
+#u4_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:347px;
+    height:77px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:343px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_container {
+    position:absolute;
+    left:461px;
+    top:14px;
+    width:70px;
+    height:34px;
+}
+
+#u8_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:70px;
+    height:34px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_container {
+    position:absolute;
+    left:535px;
+    top:14px;
+    width:58px;
+    height:34px;
+}
+
+#u10_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:58px;
+    height:34px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:54px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:74px;
+    top:100px;
+    width:740px;
+    height:1830px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:746px;
+    height:1836px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:907px;
+    width:736px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_container {
+    position:absolute;
+    left:75px;
+    top:100px;
+    width:739px;
+    height:32px;
+}
+
+#u14_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:739px;
+    height:32px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:735px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:82px;
+    top:138px;
+    width:722px;
+    height:1782px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:728px;
+    height:1788px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:883px;
+    width:718px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:84px;
+    top:115px;
+    width:730px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:90px;
+    top:146px;
+    width:705px;
+    height:1742px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:711px;
+    height:1748px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:863px;
+    width:701px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:93px;
+    top:148px;
+    width:700px;
+    height:14px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:706px;
+    height:20px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:696px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/lblRodapeJanela_u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:90px;
+    top:1894px;
+    width:705px;
+    height:20px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:711px;
+    height:26px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:701px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_line {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u25_line.png');
+}
+
+.u25_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:705px;
+    height:3px;
+}
+
+.u25 {
+    position:absolute;
+    left:90px;
+    top:380px;
+    width:705px;
+    height:10px;
+    
+}
+
+.u26_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u26_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:100px;
+    top:374px;
+    width:172px;
+    height:20px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:178px;
+    height:26px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:168px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_line {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u28_line.png');
+}
+
+.u28_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:705px;
+    height:3px;
+}
+
+.u28 {
+    position:absolute;
+    left:90px;
+    top:1345px;
+    width:705px;
+    height:10px;
+    
+}
+
+.u29_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u29_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:100px;
+    top:1339px;
+    width:182px;
+    height:20px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:188px;
+    height:26px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:178px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_line {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u31_line.png');
+}
+
+.u31_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:705px;
+    height:3px;
+}
+
+.u31 {
+    position:absolute;
+    left:90px;
+    top:1561px;
+    width:705px;
+    height:10px;
+    
+}
+
+.u32_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u32_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:100px;
+    top:1555px;
+    width:100px;
+    height:20px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u34_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:100px;
+    top:1857px;
+    width:132px;
+    height:20px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:138px;
+    height:26px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:128px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u34_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:240px;
+    top:1857px;
+    width:132px;
+    height:20px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:138px;
+    height:26px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:128px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u34_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:380px;
+    top:1857px;
+    width:132px;
+    height:20px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:138px;
+    height:26px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:128px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:100px;
+    top:398px;
+    width:162px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:282px;
+    top:391px;
+    width:88px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u42 {
+    position:absolute;
+    left:100px;
+    top:424px;
+    width:182px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:282px;
+    top:417px;
+    width:88px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u44 {
+    position:absolute;
+    left:100px;
+    top:1057px;
+    width:76px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:177px;
+    top:1057px;
+    width:603px;
+    height:60px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u46 {
+    position:absolute;
+    left:100px;
+    top:1366px;
+    width:160px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:262px;
+    top:1359px;
+    width:88px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u48 {
+    position:absolute;
+    left:100px;
+    top:1493px;
+    width:76px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:177px;
+    top:1493px;
+    width:603px;
+    height:60px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u50 {
+    position:absolute;
+    left:94px;
+    top:1596px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:94px;
+    top:1613px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u52_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u52_normal.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:96px;
+    top:1578px;
+    width:155px;
+    height:16px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:22px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:151px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:234px;
+    top:1595px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55 {
+    position:absolute;
+    left:234px;
+    top:1613px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u56 {
+    position:absolute;
+    left:374px;
+    top:1595px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:374px;
+    top:1613px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u58 {
+    position:absolute;
+    left:514px;
+    top:1595px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59 {
+    position:absolute;
+    left:514px;
+    top:1613px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u60 {
+    position:absolute;
+    left:654px;
+    top:1595px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:654px;
+    top:1613px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u62 {
+    position:absolute;
+    left:94px;
+    top:1638px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:94px;
+    top:1655px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u64 {
+    position:absolute;
+    left:234px;
+    top:1637px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:234px;
+    top:1655px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u66 {
+    position:absolute;
+    left:374px;
+    top:1637px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:374px;
+    top:1655px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u68 {
+    position:absolute;
+    left:514px;
+    top:1637px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69 {
+    position:absolute;
+    left:514px;
+    top:1655px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u70 {
+    position:absolute;
+    left:654px;
+    top:1637px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:654px;
+    top:1655px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u72 {
+    position:absolute;
+    left:94px;
+    top:1680px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73 {
+    position:absolute;
+    left:94px;
+    top:1698px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u74 {
+    position:absolute;
+    left:234px;
+    top:1680px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:234px;
+    top:1698px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u76 {
+    position:absolute;
+    left:374px;
+    top:1680px;
+    width:130px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77 {
+    position:absolute;
+    left:374px;
+    top:1698px;
+    width:137px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u78 {
+    position:absolute;
+    left:94px;
+    top:1725px;
+    width:76px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79 {
+    position:absolute;
+    left:171px;
+    top:1725px;
+    width:603px;
+    height:60px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u80 {
+    position:absolute;
+    left:94px;
+    top:1790px;
+    width:76px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81 {
+    position:absolute;
+    left:172px;
+    top:1790px;
+    width:603px;
+    height:60px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u83_line {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u83_line.png');
+}
+
+.u83_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:705px;
+    height:3px;
+}
+
+.u83 {
+    position:absolute;
+    left:90px;
+    top:1130px;
+    width:705px;
+    height:10px;
+    
+}
+
+.u84_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u84_normal.png');
+}
+
+.u84_container {
+    position:absolute;
+    left:100px;
+    top:1124px;
+    width:158px;
+    height:20px;
+}
+
+#u84_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:164px;
+    height:26px;
+}
+
+.u85 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:154px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:100px;
+    top:1158px;
+    width:112px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87 {
+    position:absolute;
+    left:214px;
+    top:1152px;
+    width:106px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u88 {
+    position:absolute;
+    left:390px;
+    top:1366px;
+    width:177px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89 {
+    position:absolute;
+    left:572px;
+    top:1359px;
+    width:88px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u90_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u90_container {
+    position:absolute;
+    left:100px;
+    top:449px;
+    width:680px;
+    height:49px;
+}
+
+#u90_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u91 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u92_container {
+    position:absolute;
+    left:104px;
+    top:455px;
+    width:60px;
+    height:16px;
+}
+
+#u92_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u93 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94 {
+    position:absolute;
+    left:333px;
+    top:453px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u95 {
+    position:absolute;
+    left:306px;
+    top:457px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96 {
+    position:absolute;
+    left:367px;
+    top:457px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97 {
+    position:absolute;
+    left:438px;
+    top:453px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u98 {
+    position:absolute;
+    left:412px;
+    top:457px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99 {
+    position:absolute;
+    left:472px;
+    top:457px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100 {
+    position:absolute;
+    left:540px;
+    top:453px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u101 {
+    position:absolute;
+    left:524px;
+    top:457px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102 {
+    position:absolute;
+    left:640px;
+    top:453px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u103 {
+    position:absolute;
+    left:590px;
+    top:457px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106 {
+    position:absolute;
+    left:333px;
+    top:475px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u107 {
+    position:absolute;
+    left:306px;
+    top:479px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108 {
+    position:absolute;
+    left:367px;
+    top:479px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109 {
+    position:absolute;
+    left:438px;
+    top:475px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u110 {
+    position:absolute;
+    left:412px;
+    top:481px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111 {
+    position:absolute;
+    left:472px;
+    top:481px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112 {
+    position:absolute;
+    left:540px;
+    top:475px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u113 {
+    position:absolute;
+    left:524px;
+    top:481px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114 {
+    position:absolute;
+    left:640px;
+    top:475px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u115 {
+    position:absolute;
+    left:590px;
+    top:479px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118 {
+    position:absolute;
+    left:729px;
+    top:475px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u119 {
+    position:absolute;
+    left:688px;
+    top:481px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u120 {
+    position:absolute;
+    left:763px;
+    top:481px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u121_container {
+    position:absolute;
+    left:100px;
+    top:498px;
+    width:680px;
+    height:49px;
+}
+
+#u121_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u122 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u123_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u123_container {
+    position:absolute;
+    left:104px;
+    top:504px;
+    width:60px;
+    height:16px;
+}
+
+#u123_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u124 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125 {
+    position:absolute;
+    left:333px;
+    top:502px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u126 {
+    position:absolute;
+    left:306px;
+    top:506px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127 {
+    position:absolute;
+    left:367px;
+    top:506px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u128 {
+    position:absolute;
+    left:438px;
+    top:502px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u129 {
+    position:absolute;
+    left:412px;
+    top:506px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u130 {
+    position:absolute;
+    left:472px;
+    top:506px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u131 {
+    position:absolute;
+    left:540px;
+    top:502px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u132 {
+    position:absolute;
+    left:524px;
+    top:506px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133 {
+    position:absolute;
+    left:640px;
+    top:502px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u134 {
+    position:absolute;
+    left:590px;
+    top:506px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137 {
+    position:absolute;
+    left:333px;
+    top:524px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u138 {
+    position:absolute;
+    left:306px;
+    top:528px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u139 {
+    position:absolute;
+    left:367px;
+    top:528px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140 {
+    position:absolute;
+    left:438px;
+    top:524px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u141 {
+    position:absolute;
+    left:412px;
+    top:530px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142 {
+    position:absolute;
+    left:472px;
+    top:530px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143 {
+    position:absolute;
+    left:540px;
+    top:524px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u144 {
+    position:absolute;
+    left:524px;
+    top:530px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145 {
+    position:absolute;
+    left:640px;
+    top:524px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u146 {
+    position:absolute;
+    left:590px;
+    top:528px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u148 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149 {
+    position:absolute;
+    left:729px;
+    top:524px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u150 {
+    position:absolute;
+    left:688px;
+    top:530px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u151 {
+    position:absolute;
+    left:763px;
+    top:530px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u152_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u152_container {
+    position:absolute;
+    left:100px;
+    top:547px;
+    width:680px;
+    height:49px;
+}
+
+#u152_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u153 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u154_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u154_container {
+    position:absolute;
+    left:104px;
+    top:553px;
+    width:60px;
+    height:16px;
+}
+
+#u154_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u155 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u156 {
+    position:absolute;
+    left:333px;
+    top:551px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u157 {
+    position:absolute;
+    left:306px;
+    top:555px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u158 {
+    position:absolute;
+    left:367px;
+    top:555px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159 {
+    position:absolute;
+    left:438px;
+    top:551px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u160 {
+    position:absolute;
+    left:412px;
+    top:555px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u161 {
+    position:absolute;
+    left:472px;
+    top:555px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u162 {
+    position:absolute;
+    left:540px;
+    top:551px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u163 {
+    position:absolute;
+    left:524px;
+    top:555px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u164 {
+    position:absolute;
+    left:640px;
+    top:551px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u165 {
+    position:absolute;
+    left:590px;
+    top:555px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u167 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u168 {
+    position:absolute;
+    left:333px;
+    top:573px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u169 {
+    position:absolute;
+    left:306px;
+    top:577px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170 {
+    position:absolute;
+    left:367px;
+    top:577px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u171 {
+    position:absolute;
+    left:438px;
+    top:573px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u172 {
+    position:absolute;
+    left:412px;
+    top:579px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u173 {
+    position:absolute;
+    left:472px;
+    top:579px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u174 {
+    position:absolute;
+    left:540px;
+    top:573px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u175 {
+    position:absolute;
+    left:524px;
+    top:579px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u176 {
+    position:absolute;
+    left:640px;
+    top:573px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u177 {
+    position:absolute;
+    left:590px;
+    top:577px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u179 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u180 {
+    position:absolute;
+    left:729px;
+    top:573px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u181 {
+    position:absolute;
+    left:688px;
+    top:579px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u182 {
+    position:absolute;
+    left:763px;
+    top:579px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u183_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u183_container {
+    position:absolute;
+    left:100px;
+    top:596px;
+    width:680px;
+    height:49px;
+}
+
+#u183_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u184 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u185_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u185_container {
+    position:absolute;
+    left:104px;
+    top:602px;
+    width:60px;
+    height:16px;
+}
+
+#u185_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u186 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u187 {
+    position:absolute;
+    left:333px;
+    top:600px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u188 {
+    position:absolute;
+    left:306px;
+    top:604px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u189 {
+    position:absolute;
+    left:367px;
+    top:604px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u190 {
+    position:absolute;
+    left:438px;
+    top:600px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u191 {
+    position:absolute;
+    left:412px;
+    top:604px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u192 {
+    position:absolute;
+    left:472px;
+    top:604px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u193 {
+    position:absolute;
+    left:540px;
+    top:600px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u194 {
+    position:absolute;
+    left:524px;
+    top:604px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u195 {
+    position:absolute;
+    left:640px;
+    top:600px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u196 {
+    position:absolute;
+    left:590px;
+    top:604px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u198 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u199 {
+    position:absolute;
+    left:333px;
+    top:622px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u200 {
+    position:absolute;
+    left:306px;
+    top:626px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u201 {
+    position:absolute;
+    left:367px;
+    top:626px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u202 {
+    position:absolute;
+    left:438px;
+    top:622px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u203 {
+    position:absolute;
+    left:412px;
+    top:628px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u204 {
+    position:absolute;
+    left:472px;
+    top:628px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u205 {
+    position:absolute;
+    left:540px;
+    top:622px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u206 {
+    position:absolute;
+    left:524px;
+    top:628px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u207 {
+    position:absolute;
+    left:640px;
+    top:622px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u208 {
+    position:absolute;
+    left:590px;
+    top:626px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u210 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u211 {
+    position:absolute;
+    left:729px;
+    top:622px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u212 {
+    position:absolute;
+    left:688px;
+    top:628px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u213 {
+    position:absolute;
+    left:763px;
+    top:628px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u214_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u214_container {
+    position:absolute;
+    left:100px;
+    top:645px;
+    width:680px;
+    height:49px;
+}
+
+#u214_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u215 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u216_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u216_container {
+    position:absolute;
+    left:104px;
+    top:651px;
+    width:60px;
+    height:16px;
+}
+
+#u216_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u217 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u218 {
+    position:absolute;
+    left:333px;
+    top:649px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u219 {
+    position:absolute;
+    left:306px;
+    top:653px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u220 {
+    position:absolute;
+    left:367px;
+    top:653px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u221 {
+    position:absolute;
+    left:438px;
+    top:649px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u222 {
+    position:absolute;
+    left:412px;
+    top:653px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u223 {
+    position:absolute;
+    left:472px;
+    top:653px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u224 {
+    position:absolute;
+    left:540px;
+    top:649px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u225 {
+    position:absolute;
+    left:524px;
+    top:653px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u226 {
+    position:absolute;
+    left:640px;
+    top:649px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u227 {
+    position:absolute;
+    left:590px;
+    top:653px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u229 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u230 {
+    position:absolute;
+    left:333px;
+    top:671px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u231 {
+    position:absolute;
+    left:306px;
+    top:675px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u232 {
+    position:absolute;
+    left:367px;
+    top:675px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u233 {
+    position:absolute;
+    left:438px;
+    top:671px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u234 {
+    position:absolute;
+    left:412px;
+    top:677px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u235 {
+    position:absolute;
+    left:472px;
+    top:677px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u236 {
+    position:absolute;
+    left:540px;
+    top:671px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u237 {
+    position:absolute;
+    left:524px;
+    top:677px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u238 {
+    position:absolute;
+    left:640px;
+    top:671px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u239 {
+    position:absolute;
+    left:590px;
+    top:675px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u241 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u242 {
+    position:absolute;
+    left:729px;
+    top:671px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u243 {
+    position:absolute;
+    left:688px;
+    top:677px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u244 {
+    position:absolute;
+    left:763px;
+    top:677px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u245_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u245_container {
+    position:absolute;
+    left:100px;
+    top:694px;
+    width:680px;
+    height:49px;
+}
+
+#u245_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u246 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u247_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u247_container {
+    position:absolute;
+    left:104px;
+    top:700px;
+    width:60px;
+    height:16px;
+}
+
+#u247_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u248 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u249 {
+    position:absolute;
+    left:333px;
+    top:698px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u250 {
+    position:absolute;
+    left:306px;
+    top:702px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u251 {
+    position:absolute;
+    left:367px;
+    top:702px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u252 {
+    position:absolute;
+    left:438px;
+    top:698px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u253 {
+    position:absolute;
+    left:412px;
+    top:702px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u254 {
+    position:absolute;
+    left:472px;
+    top:702px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u255 {
+    position:absolute;
+    left:540px;
+    top:698px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u256 {
+    position:absolute;
+    left:524px;
+    top:702px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u257 {
+    position:absolute;
+    left:640px;
+    top:698px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u258 {
+    position:absolute;
+    left:590px;
+    top:702px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u260 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u261 {
+    position:absolute;
+    left:333px;
+    top:720px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u262 {
+    position:absolute;
+    left:306px;
+    top:724px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u263 {
+    position:absolute;
+    left:367px;
+    top:724px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u264 {
+    position:absolute;
+    left:438px;
+    top:720px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u265 {
+    position:absolute;
+    left:412px;
+    top:726px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u266 {
+    position:absolute;
+    left:472px;
+    top:726px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u267 {
+    position:absolute;
+    left:540px;
+    top:720px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u268 {
+    position:absolute;
+    left:524px;
+    top:726px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u269 {
+    position:absolute;
+    left:640px;
+    top:720px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u270 {
+    position:absolute;
+    left:590px;
+    top:724px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u272 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u273 {
+    position:absolute;
+    left:729px;
+    top:720px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u274 {
+    position:absolute;
+    left:688px;
+    top:726px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u275 {
+    position:absolute;
+    left:763px;
+    top:726px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u276_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u276_container {
+    position:absolute;
+    left:100px;
+    top:755px;
+    width:680px;
+    height:49px;
+}
+
+#u276_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u277 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u278_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u278_container {
+    position:absolute;
+    left:104px;
+    top:761px;
+    width:60px;
+    height:16px;
+}
+
+#u278_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u279 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u280 {
+    position:absolute;
+    left:333px;
+    top:759px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u281 {
+    position:absolute;
+    left:306px;
+    top:763px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u282 {
+    position:absolute;
+    left:367px;
+    top:763px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u283 {
+    position:absolute;
+    left:438px;
+    top:759px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u284 {
+    position:absolute;
+    left:412px;
+    top:763px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u285 {
+    position:absolute;
+    left:472px;
+    top:763px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u286 {
+    position:absolute;
+    left:540px;
+    top:759px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u287 {
+    position:absolute;
+    left:524px;
+    top:763px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u288 {
+    position:absolute;
+    left:640px;
+    top:759px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u289 {
+    position:absolute;
+    left:590px;
+    top:763px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u291 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u292 {
+    position:absolute;
+    left:333px;
+    top:781px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u293 {
+    position:absolute;
+    left:306px;
+    top:785px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u294 {
+    position:absolute;
+    left:367px;
+    top:785px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u295 {
+    position:absolute;
+    left:438px;
+    top:781px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u296 {
+    position:absolute;
+    left:412px;
+    top:787px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u297 {
+    position:absolute;
+    left:472px;
+    top:787px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u298 {
+    position:absolute;
+    left:540px;
+    top:781px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u299 {
+    position:absolute;
+    left:524px;
+    top:787px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u300 {
+    position:absolute;
+    left:640px;
+    top:781px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u301 {
+    position:absolute;
+    left:590px;
+    top:785px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u303 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u304 {
+    position:absolute;
+    left:729px;
+    top:781px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u305 {
+    position:absolute;
+    left:688px;
+    top:787px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u306 {
+    position:absolute;
+    left:763px;
+    top:787px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u307_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u307_container {
+    position:absolute;
+    left:100px;
+    top:804px;
+    width:680px;
+    height:49px;
+}
+
+#u307_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u308 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u309_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u309_container {
+    position:absolute;
+    left:104px;
+    top:810px;
+    width:60px;
+    height:16px;
+}
+
+#u309_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u310 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u311 {
+    position:absolute;
+    left:333px;
+    top:808px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u312 {
+    position:absolute;
+    left:306px;
+    top:812px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u313 {
+    position:absolute;
+    left:367px;
+    top:812px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u314 {
+    position:absolute;
+    left:438px;
+    top:808px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u315 {
+    position:absolute;
+    left:412px;
+    top:812px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u316 {
+    position:absolute;
+    left:472px;
+    top:812px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u317 {
+    position:absolute;
+    left:540px;
+    top:808px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u318 {
+    position:absolute;
+    left:524px;
+    top:812px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u319 {
+    position:absolute;
+    left:640px;
+    top:808px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u320 {
+    position:absolute;
+    left:590px;
+    top:812px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u322 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u323 {
+    position:absolute;
+    left:333px;
+    top:830px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u324 {
+    position:absolute;
+    left:306px;
+    top:834px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u325 {
+    position:absolute;
+    left:367px;
+    top:834px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u326 {
+    position:absolute;
+    left:438px;
+    top:830px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u327 {
+    position:absolute;
+    left:412px;
+    top:836px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u328 {
+    position:absolute;
+    left:472px;
+    top:836px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u329 {
+    position:absolute;
+    left:540px;
+    top:830px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u330 {
+    position:absolute;
+    left:524px;
+    top:836px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u331 {
+    position:absolute;
+    left:640px;
+    top:830px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u332 {
+    position:absolute;
+    left:590px;
+    top:834px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u334 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u335 {
+    position:absolute;
+    left:729px;
+    top:830px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u336 {
+    position:absolute;
+    left:688px;
+    top:836px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u337 {
+    position:absolute;
+    left:763px;
+    top:836px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u338_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u338_container {
+    position:absolute;
+    left:100px;
+    top:853px;
+    width:680px;
+    height:49px;
+}
+
+#u338_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u339 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u340_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u340_container {
+    position:absolute;
+    left:104px;
+    top:859px;
+    width:60px;
+    height:16px;
+}
+
+#u340_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u341 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u342 {
+    position:absolute;
+    left:333px;
+    top:857px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u343 {
+    position:absolute;
+    left:306px;
+    top:861px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u344 {
+    position:absolute;
+    left:367px;
+    top:861px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u345 {
+    position:absolute;
+    left:438px;
+    top:857px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u346 {
+    position:absolute;
+    left:412px;
+    top:861px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u347 {
+    position:absolute;
+    left:472px;
+    top:861px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u348 {
+    position:absolute;
+    left:540px;
+    top:857px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u349 {
+    position:absolute;
+    left:524px;
+    top:861px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u350 {
+    position:absolute;
+    left:640px;
+    top:857px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u351 {
+    position:absolute;
+    left:590px;
+    top:861px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u353 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u354 {
+    position:absolute;
+    left:333px;
+    top:879px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u355 {
+    position:absolute;
+    left:306px;
+    top:883px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u356 {
+    position:absolute;
+    left:367px;
+    top:883px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u357 {
+    position:absolute;
+    left:438px;
+    top:879px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u358 {
+    position:absolute;
+    left:412px;
+    top:885px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u359 {
+    position:absolute;
+    left:472px;
+    top:885px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u360 {
+    position:absolute;
+    left:540px;
+    top:879px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u361 {
+    position:absolute;
+    left:524px;
+    top:885px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u362 {
+    position:absolute;
+    left:640px;
+    top:879px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u363 {
+    position:absolute;
+    left:590px;
+    top:883px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u365 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u366 {
+    position:absolute;
+    left:729px;
+    top:879px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u367 {
+    position:absolute;
+    left:688px;
+    top:885px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u368 {
+    position:absolute;
+    left:763px;
+    top:885px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u369_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u369_container {
+    position:absolute;
+    left:100px;
+    top:902px;
+    width:680px;
+    height:49px;
+}
+
+#u369_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u370 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u371_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u371_container {
+    position:absolute;
+    left:104px;
+    top:908px;
+    width:60px;
+    height:16px;
+}
+
+#u371_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u372 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u373 {
+    position:absolute;
+    left:333px;
+    top:906px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u374 {
+    position:absolute;
+    left:306px;
+    top:910px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u375 {
+    position:absolute;
+    left:367px;
+    top:910px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u376 {
+    position:absolute;
+    left:438px;
+    top:906px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u377 {
+    position:absolute;
+    left:412px;
+    top:910px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u378 {
+    position:absolute;
+    left:472px;
+    top:910px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u379 {
+    position:absolute;
+    left:540px;
+    top:906px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u380 {
+    position:absolute;
+    left:524px;
+    top:910px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u381 {
+    position:absolute;
+    left:640px;
+    top:906px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u382 {
+    position:absolute;
+    left:590px;
+    top:910px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u384 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u385 {
+    position:absolute;
+    left:333px;
+    top:928px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u386 {
+    position:absolute;
+    left:306px;
+    top:932px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u387 {
+    position:absolute;
+    left:367px;
+    top:932px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u388 {
+    position:absolute;
+    left:438px;
+    top:928px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u389 {
+    position:absolute;
+    left:412px;
+    top:934px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u390 {
+    position:absolute;
+    left:472px;
+    top:934px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u391 {
+    position:absolute;
+    left:540px;
+    top:928px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u392 {
+    position:absolute;
+    left:524px;
+    top:934px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u393 {
+    position:absolute;
+    left:640px;
+    top:928px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u394 {
+    position:absolute;
+    left:590px;
+    top:932px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u396 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u397 {
+    position:absolute;
+    left:729px;
+    top:928px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u398 {
+    position:absolute;
+    left:688px;
+    top:934px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u399 {
+    position:absolute;
+    left:763px;
+    top:934px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u400_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u400_container {
+    position:absolute;
+    left:100px;
+    top:951px;
+    width:680px;
+    height:49px;
+}
+
+#u400_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u401 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u402_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u402_container {
+    position:absolute;
+    left:104px;
+    top:957px;
+    width:60px;
+    height:16px;
+}
+
+#u402_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u403 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u404 {
+    position:absolute;
+    left:333px;
+    top:955px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u405 {
+    position:absolute;
+    left:306px;
+    top:959px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u406 {
+    position:absolute;
+    left:367px;
+    top:959px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u407 {
+    position:absolute;
+    left:438px;
+    top:955px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u408 {
+    position:absolute;
+    left:412px;
+    top:959px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u409 {
+    position:absolute;
+    left:472px;
+    top:959px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u410 {
+    position:absolute;
+    left:540px;
+    top:955px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u411 {
+    position:absolute;
+    left:524px;
+    top:959px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u412 {
+    position:absolute;
+    left:640px;
+    top:955px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u413 {
+    position:absolute;
+    left:590px;
+    top:959px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u415 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u416 {
+    position:absolute;
+    left:333px;
+    top:977px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u417 {
+    position:absolute;
+    left:306px;
+    top:981px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u418 {
+    position:absolute;
+    left:367px;
+    top:981px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u419 {
+    position:absolute;
+    left:438px;
+    top:977px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u420 {
+    position:absolute;
+    left:412px;
+    top:983px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u421 {
+    position:absolute;
+    left:472px;
+    top:983px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u422 {
+    position:absolute;
+    left:540px;
+    top:977px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u423 {
+    position:absolute;
+    left:524px;
+    top:983px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u424 {
+    position:absolute;
+    left:640px;
+    top:977px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u425 {
+    position:absolute;
+    left:590px;
+    top:981px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u427 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u428 {
+    position:absolute;
+    left:729px;
+    top:977px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u429 {
+    position:absolute;
+    left:688px;
+    top:983px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u430 {
+    position:absolute;
+    left:763px;
+    top:983px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u431_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u431_container {
+    position:absolute;
+    left:100px;
+    top:1000px;
+    width:680px;
+    height:49px;
+}
+
+#u431_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u432 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u433_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u433_container {
+    position:absolute;
+    left:104px;
+    top:1006px;
+    width:60px;
+    height:16px;
+}
+
+#u433_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u434 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u435 {
+    position:absolute;
+    left:333px;
+    top:1004px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u436 {
+    position:absolute;
+    left:306px;
+    top:1008px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u437 {
+    position:absolute;
+    left:367px;
+    top:1008px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u438 {
+    position:absolute;
+    left:438px;
+    top:1004px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u439 {
+    position:absolute;
+    left:412px;
+    top:1008px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u440 {
+    position:absolute;
+    left:472px;
+    top:1008px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u441 {
+    position:absolute;
+    left:540px;
+    top:1004px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u442 {
+    position:absolute;
+    left:524px;
+    top:1008px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u443 {
+    position:absolute;
+    left:640px;
+    top:1004px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u444 {
+    position:absolute;
+    left:590px;
+    top:1008px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u446 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u447 {
+    position:absolute;
+    left:333px;
+    top:1026px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u448 {
+    position:absolute;
+    left:306px;
+    top:1030px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u449 {
+    position:absolute;
+    left:367px;
+    top:1030px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u450 {
+    position:absolute;
+    left:438px;
+    top:1026px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u451 {
+    position:absolute;
+    left:412px;
+    top:1032px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u452 {
+    position:absolute;
+    left:472px;
+    top:1032px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u453 {
+    position:absolute;
+    left:540px;
+    top:1026px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u454 {
+    position:absolute;
+    left:524px;
+    top:1032px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u455 {
+    position:absolute;
+    left:640px;
+    top:1026px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u456 {
+    position:absolute;
+    left:590px;
+    top:1030px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u458 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u459 {
+    position:absolute;
+    left:729px;
+    top:1026px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u460 {
+    position:absolute;
+    left:688px;
+    top:1032px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u461 {
+    position:absolute;
+    left:763px;
+    top:1032px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u462_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u462_container {
+    position:absolute;
+    left:100px;
+    top:1179px;
+    width:680px;
+    height:49px;
+}
+
+#u462_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u463 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u464_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u464_container {
+    position:absolute;
+    left:104px;
+    top:1185px;
+    width:60px;
+    height:16px;
+}
+
+#u464_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u465 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u466 {
+    position:absolute;
+    left:333px;
+    top:1183px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u467 {
+    position:absolute;
+    left:306px;
+    top:1187px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u468 {
+    position:absolute;
+    left:367px;
+    top:1187px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u469 {
+    position:absolute;
+    left:438px;
+    top:1183px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u470 {
+    position:absolute;
+    left:412px;
+    top:1187px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u471 {
+    position:absolute;
+    left:472px;
+    top:1187px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u472 {
+    position:absolute;
+    left:540px;
+    top:1183px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u473 {
+    position:absolute;
+    left:524px;
+    top:1187px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u474 {
+    position:absolute;
+    left:640px;
+    top:1183px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u475 {
+    position:absolute;
+    left:590px;
+    top:1187px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u477 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u478 {
+    position:absolute;
+    left:333px;
+    top:1205px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u479 {
+    position:absolute;
+    left:306px;
+    top:1209px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u480 {
+    position:absolute;
+    left:367px;
+    top:1209px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u481 {
+    position:absolute;
+    left:438px;
+    top:1205px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u482 {
+    position:absolute;
+    left:412px;
+    top:1211px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u483 {
+    position:absolute;
+    left:472px;
+    top:1211px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u484 {
+    position:absolute;
+    left:540px;
+    top:1205px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u485 {
+    position:absolute;
+    left:524px;
+    top:1211px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u486 {
+    position:absolute;
+    left:640px;
+    top:1205px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u487 {
+    position:absolute;
+    left:590px;
+    top:1209px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u489 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u490 {
+    position:absolute;
+    left:729px;
+    top:1205px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u491 {
+    position:absolute;
+    left:688px;
+    top:1211px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u492 {
+    position:absolute;
+    left:763px;
+    top:1211px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u493_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u493_container {
+    position:absolute;
+    left:100px;
+    top:1228px;
+    width:680px;
+    height:49px;
+}
+
+#u493_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u494 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u495_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u495_container {
+    position:absolute;
+    left:104px;
+    top:1234px;
+    width:60px;
+    height:16px;
+}
+
+#u495_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u496 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u497 {
+    position:absolute;
+    left:333px;
+    top:1232px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u498 {
+    position:absolute;
+    left:306px;
+    top:1236px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u499 {
+    position:absolute;
+    left:367px;
+    top:1236px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u500 {
+    position:absolute;
+    left:438px;
+    top:1232px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u501 {
+    position:absolute;
+    left:412px;
+    top:1236px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u502 {
+    position:absolute;
+    left:472px;
+    top:1236px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u503 {
+    position:absolute;
+    left:540px;
+    top:1232px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u504 {
+    position:absolute;
+    left:524px;
+    top:1236px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u505 {
+    position:absolute;
+    left:640px;
+    top:1232px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u506 {
+    position:absolute;
+    left:590px;
+    top:1236px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u508 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u509 {
+    position:absolute;
+    left:333px;
+    top:1254px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u510 {
+    position:absolute;
+    left:306px;
+    top:1258px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u511 {
+    position:absolute;
+    left:367px;
+    top:1258px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u512 {
+    position:absolute;
+    left:438px;
+    top:1254px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u513 {
+    position:absolute;
+    left:412px;
+    top:1260px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u514 {
+    position:absolute;
+    left:472px;
+    top:1260px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u515 {
+    position:absolute;
+    left:540px;
+    top:1254px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u516 {
+    position:absolute;
+    left:524px;
+    top:1260px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u517 {
+    position:absolute;
+    left:640px;
+    top:1254px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u518 {
+    position:absolute;
+    left:590px;
+    top:1258px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u520 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u521 {
+    position:absolute;
+    left:729px;
+    top:1254px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u522 {
+    position:absolute;
+    left:688px;
+    top:1260px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u523 {
+    position:absolute;
+    left:763px;
+    top:1260px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u524_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSTEMPORAL_u90_normal.png');
+}
+
+.u524_container {
+    position:absolute;
+    left:100px;
+    top:1277px;
+    width:680px;
+    height:49px;
+}
+
+#u524_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:55px;
+}
+
+.u525 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u526_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u526_container {
+    position:absolute;
+    left:104px;
+    top:1283px;
+    width:60px;
+    height:16px;
+}
+
+#u526_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u527 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u528 {
+    position:absolute;
+    left:333px;
+    top:1281px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u529 {
+    position:absolute;
+    left:306px;
+    top:1285px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u530 {
+    position:absolute;
+    left:367px;
+    top:1285px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u531 {
+    position:absolute;
+    left:438px;
+    top:1281px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u532 {
+    position:absolute;
+    left:412px;
+    top:1285px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u533 {
+    position:absolute;
+    left:472px;
+    top:1285px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u534 {
+    position:absolute;
+    left:540px;
+    top:1281px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u535 {
+    position:absolute;
+    left:524px;
+    top:1285px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u536 {
+    position:absolute;
+    left:640px;
+    top:1281px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u537 {
+    position:absolute;
+    left:590px;
+    top:1285px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u539 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u540 {
+    position:absolute;
+    left:333px;
+    top:1303px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u541 {
+    position:absolute;
+    left:306px;
+    top:1307px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u542 {
+    position:absolute;
+    left:367px;
+    top:1307px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u543 {
+    position:absolute;
+    left:438px;
+    top:1303px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u544 {
+    position:absolute;
+    left:412px;
+    top:1309px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u545 {
+    position:absolute;
+    left:472px;
+    top:1309px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u546 {
+    position:absolute;
+    left:540px;
+    top:1303px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u547 {
+    position:absolute;
+    left:524px;
+    top:1309px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u548 {
+    position:absolute;
+    left:640px;
+    top:1303px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u549 {
+    position:absolute;
+    left:590px;
+    top:1307px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u551 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u552 {
+    position:absolute;
+    left:729px;
+    top:1303px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u553 {
+    position:absolute;
+    left:688px;
+    top:1309px;
+    width:40px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u554 {
+    position:absolute;
+    left:763px;
+    top:1309px;
+    width:9px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u555_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSORBITARIO_u555_normal.png');
+}
+
+.u555_container {
+    position:absolute;
+    left:100px;
+    top:1385px;
+    width:680px;
+    height:26px;
+}
+
+#u555_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:32px;
+}
+
+.u556 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u557_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u557_container {
+    position:absolute;
+    left:104px;
+    top:1391px;
+    width:60px;
+    height:16px;
+}
+
+#u557_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u558 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u559 {
+    position:absolute;
+    left:438px;
+    top:1388px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u560 {
+    position:absolute;
+    left:412px;
+    top:1393px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u561 {
+    position:absolute;
+    left:472px;
+    top:1393px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u563 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:91px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u564 {
+    position:absolute;
+    left:526px;
+    top:1394px;
+    width:80px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u565 {
+    position:absolute;
+    left:604px;
+    top:1387px;
+    width:168px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u566_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSORBITARIO_u555_normal.png');
+}
+
+.u566_container {
+    position:absolute;
+    left:100px;
+    top:1411px;
+    width:680px;
+    height:26px;
+}
+
+#u566_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:32px;
+}
+
+.u567 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u568_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u568_container {
+    position:absolute;
+    left:104px;
+    top:1417px;
+    width:60px;
+    height:16px;
+}
+
+#u568_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u569 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u570 {
+    position:absolute;
+    left:438px;
+    top:1414px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u571 {
+    position:absolute;
+    left:412px;
+    top:1419px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u572 {
+    position:absolute;
+    left:472px;
+    top:1419px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u574 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:91px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u575 {
+    position:absolute;
+    left:526px;
+    top:1420px;
+    width:80px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u576 {
+    position:absolute;
+    left:604px;
+    top:1413px;
+    width:168px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u577_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSORBITARIO_u555_normal.png');
+}
+
+.u577_container {
+    position:absolute;
+    left:100px;
+    top:1437px;
+    width:680px;
+    height:26px;
+}
+
+#u577_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:32px;
+}
+
+.u578 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u579_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u579_container {
+    position:absolute;
+    left:104px;
+    top:1443px;
+    width:60px;
+    height:16px;
+}
+
+#u579_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u580 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u581 {
+    position:absolute;
+    left:333px;
+    top:1441px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u582 {
+    position:absolute;
+    left:306px;
+    top:1445px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u583 {
+    position:absolute;
+    left:367px;
+    top:1445px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u584 {
+    position:absolute;
+    left:438px;
+    top:1441px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u585 {
+    position:absolute;
+    left:412px;
+    top:1445px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u586 {
+    position:absolute;
+    left:472px;
+    top:1445px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u587 {
+    position:absolute;
+    left:540px;
+    top:1441px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u588 {
+    position:absolute;
+    left:524px;
+    top:1445px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u589 {
+    position:absolute;
+    left:640px;
+    top:1441px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u590 {
+    position:absolute;
+    left:590px;
+    top:1445px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u592 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u593_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/Campo_de_arterias__EXAME_TRANSORBITARIO_u555_normal.png');
+}
+
+.u593_container {
+    position:absolute;
+    left:100px;
+    top:1463px;
+    width:680px;
+    height:26px;
+}
+
+#u593_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:686px;
+    height:32px;
+}
+
+.u594 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:676px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u595_normal {
+    background-image: url('../Ecodoppler_Transcraniano__Pesquisa_de_Estenose_files/u92_normal.png');
+}
+
+.u595_container {
+    position:absolute;
+    left:104px;
+    top:1469px;
+    width:60px;
+    height:16px;
+}
+
+#u595_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:22px;
+}
+
+.u596 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u597 {
+    position:absolute;
+    left:333px;
+    top:1467px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u598 {
+    position:absolute;
+    left:306px;
+    top:1471px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u599 {
+    position:absolute;
+    left:367px;
+    top:1471px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u600 {
+    position:absolute;
+    left:438px;
+    top:1467px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u601 {
+    position:absolute;
+    left:412px;
+    top:1471px;
+    width:25px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u602 {
+    position:absolute;
+    left:472px;
+    top:1471px;
+    width:30px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u603 {
+    position:absolute;
+    left:540px;
+    top:1467px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u604 {
+    position:absolute;
+    left:524px;
+    top:1471px;
+    width:15px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u605 {
+    position:absolute;
+    left:640px;
+    top:1467px;
+    width:33px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u606 {
+    position:absolute;
+    left:590px;
+    top:1471px;
+    width:49px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u608 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

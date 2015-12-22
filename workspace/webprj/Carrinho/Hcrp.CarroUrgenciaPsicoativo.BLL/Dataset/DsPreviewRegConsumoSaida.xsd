@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsPreviewRegConsumoSaida" targetNamespace="http://tempuri.org/DsPreviewRegConsumoSaida.xsd" xmlns:mstns="http://tempuri.org/DsPreviewRegConsumoSaida.xsd" xmlns="http://tempuri.org/DsPreviewRegConsumoSaida.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsPreviewRegConsumoSaida" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsPreviewRegConsumoSaida" msprop:Generator_UserDSName="DsPreviewRegConsumoSaida">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DT_REG_CONSUMO_SAIDA" msprop:Generator_TableClassName="DT_REG_CONSUMO_SAIDADataTable" msprop:Generator_TableVarName="tableDT_REG_CONSUMO_SAIDA" msprop:Generator_TablePropName="DT_REG_CONSUMO_SAIDA" msprop:Generator_RowDeletingName="DT_REG_CONSUMO_SAIDARowDeleting" msprop:Generator_RowChangingName="DT_REG_CONSUMO_SAIDARowChanging" msprop:Generator_RowEvHandlerName="DT_REG_CONSUMO_SAIDARowChangeEventHandler" msprop:Generator_RowDeletedName="DT_REG_CONSUMO_SAIDARowDeleted" msprop:Generator_UserTableName="DT_REG_CONSUMO_SAIDA" msprop:Generator_RowChangedName="DT_REG_CONSUMO_SAIDARowChanged" msprop:Generator_RowEvArgName="DT_REG_CONSUMO_SAIDARowChangeEvent" msprop:Generator_RowClassName="DT_REG_CONSUMO_SAIDARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ALINEA" msprop:Generator_ColumnVarNameInTable="columnALINEA" msprop:Generator_ColumnPropNameInRow="ALINEA" msprop:Generator_ColumnPropNameInTable="ALINEAColumn" msprop:Generator_UserColumnName="ALINEA" type="xs:string" minOccurs="0" />
+              <xs:element name="CODIGO" msprop:Generator_ColumnVarNameInTable="columnCODIGO" msprop:Generator_ColumnPropNameInRow="CODIGO" msprop:Generator_ColumnPropNameInTable="CODIGOColumn" msprop:Generator_UserColumnName="CODIGO" type="xs:string" minOccurs="0" />
+              <xs:element name="NOME" msprop:Generator_ColumnVarNameInTable="columnNOME" msprop:Generator_ColumnPropNameInRow="NOME" msprop:Generator_ColumnPropNameInTable="NOMEColumn" msprop:Generator_UserColumnName="NOME" type="xs:string" minOccurs="0" />
+              <xs:element name="UNIDADE" msprop:Generator_ColumnVarNameInTable="columnUNIDADE" msprop:Generator_ColumnPropNameInRow="UNIDADE" msprop:Generator_ColumnPropNameInTable="UNIDADEColumn" msprop:Generator_UserColumnName="UNIDADE" type="xs:string" minOccurs="0" />
+              <xs:element name="QTD_NECESSARIA" msprop:Generator_ColumnVarNameInTable="columnQTD_NECESSARIA" msprop:Generator_ColumnPropNameInRow="QTD_NECESSARIA" msprop:Generator_ColumnPropNameInTable="QTD_NECESSARIAColumn" msprop:Generator_UserColumnName="QTD_NECESSARIA" type="xs:string" minOccurs="0" />
+              <xs:element name="QTD_DISPONIVEL" msprop:Generator_ColumnVarNameInTable="columnQTD_DISPONIVEL" msprop:Generator_ColumnPropNameInRow="QTD_DISPONIVEL" msprop:Generator_ColumnPropNameInTable="QTD_DISPONIVELColumn" msprop:Generator_UserColumnName="QTD_DISPONIVEL" type="xs:string" minOccurs="0" />
+              <xs:element name="QTD_UTILIZADA" msprop:Generator_ColumnVarNameInTable="columnQTD_UTILIZADA" msprop:Generator_ColumnPropNameInRow="QTD_UTILIZADA" msprop:Generator_ColumnPropNameInTable="QTD_UTILIZADAColumn" msprop:Generator_UserColumnName="QTD_UTILIZADA" type="xs:string" minOccurs="0" />
+              <xs:element name="LOTE" msprop:Generator_ColumnVarNameInTable="columnLOTE" msprop:Generator_ColumnPropNameInRow="LOTE" msprop:Generator_ColumnPropNameInTable="LOTEColumn" msprop:Generator_UserColumnName="LOTE" type="xs:string" minOccurs="0" />
+              <xs:element name="VALIDADE" msprop:Generator_ColumnVarNameInTable="columnVALIDADE" msprop:Generator_ColumnPropNameInRow="VALIDADE" msprop:Generator_ColumnPropNameInTable="VALIDADEColumn" msprop:Generator_UserColumnName="VALIDADE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DT_ATENDIMENTO_PACIENTE" msprop:Generator_TableClassName="DT_ATENDIMENTO_PACIENTEDataTable" msprop:Generator_TableVarName="tableDT_ATENDIMENTO_PACIENTE" msprop:Generator_TablePropName="DT_ATENDIMENTO_PACIENTE" msprop:Generator_RowDeletingName="DT_ATENDIMENTO_PACIENTERowDeleting" msprop:Generator_RowChangingName="DT_ATENDIMENTO_PACIENTERowChanging" msprop:Generator_RowEvHandlerName="DT_ATENDIMENTO_PACIENTERowChangeEventHandler" msprop:Generator_RowDeletedName="DT_ATENDIMENTO_PACIENTERowDeleted" msprop:Generator_UserTableName="DT_ATENDIMENTO_PACIENTE" msprop:Generator_RowChangedName="DT_ATENDIMENTO_PACIENTERowChanged" msprop:Generator_RowEvArgName="DT_ATENDIMENTO_PACIENTERowChangeEvent" msprop:Generator_RowClassName="DT_ATENDIMENTO_PACIENTERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_ANO_ATENDIMENTO" msprop:Generator_ColumnVarNameInTable="columnNUM_ANO_ATENDIMENTO" msprop:Generator_ColumnPropNameInRow="NUM_ANO_ATENDIMENTO" msprop:Generator_ColumnPropNameInTable="NUM_ANO_ATENDIMENTOColumn" msprop:Generator_UserColumnName="NUM_ANO_ATENDIMENTO" type="xs:string" minOccurs="0" />
+              <xs:element name="NOME_PACIENTE" msprop:Generator_ColumnVarNameInTable="columnNOME_PACIENTE" msprop:Generator_ColumnPropNameInRow="NOME_PACIENTE" msprop:Generator_ColumnPropNameInTable="NOME_PACIENTEColumn" msprop:Generator_UserColumnName="NOME_PACIENTE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

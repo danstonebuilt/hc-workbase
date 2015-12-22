@@ -1,4 +1,5 @@
-ECHO OFF
+@ECHO OFF
 explorer %DN-CONT%
-EXIT
+CLS
+PAUSE
 

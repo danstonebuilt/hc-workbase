@@ -1,0 +1,525 @@
+[1216/085205:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1216/085206:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1216/085206:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1216/085211:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+AXTreeUpdate: clear node 1
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=.49928101897239685 doc_loaded=false child_ids=12
+  id=12 group READONLY (60, 308)-(300, 17) value= name= child_ids=14
+    id=14 staticText READONLY (176, 308)-(68, 17) value=Loading ... display=inline name= child_ids=16
+      id=16 inlineTextBox (176, 308)-(68, 17) text_direction=lr value=Loading ... name= character_offsets=8,16,24,32,35,43,51,55,59,63,67 word_starts=0 word_ends=7
+
+[1216/085212:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 8
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1216/085212:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1216/085212:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858527235590580 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+AXTreeUpdate: clear node 5
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.7204926609992981 doc_loaded=false child_ids=22
+  id=22 region OFFSCREEN READONLY (0, 0)-(0, 0) value= display=block html_tag=section role=region name=
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.7319549322128296 doc_loaded=false child_ids=22
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 22
+id=22 region READONLY VERTICAL (0, 0)-(420, 540) value= display=block html_tag=section role=region name= child_ids=40,43,45,48,49,51,52
+  id=40 heading READONLY (82, 16)-(323, 30) level=3 value= display=block html_tag=h3 name=Bizagi child_ids=63
+    id=63 image OFFSCREEN READONLY (0, 0)-(0, 0) value= description=Bizagi display=inline url=https://account.bizagi.com/app/img/bizagi-white.png html_tag=img role=img name=
+  id=43 textField FOCUSABLE REQUIRED (47, 94)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=64
+    id=64 div READONLY (63, 104)-(294, 23) value= display=block html_tag=div name= child_ids=66
+      id=66 staticText READONLY (63, 106)-(41, 18) value=Email display=block name= child_ids=67
+        id=67 inlineTextBox (63, 106)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+  id=45 textField FOCUSABLE PROTECTED REQUIRED (47, 151)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=68
+    id=68 div READONLY (63, 161)-(294, 23) value= display=block html_tag=div name= child_ids=70
+      id=70 staticText READONLY (63, 163)-(71, 18) value=Password display=block name= child_ids=71
+        id=71 inlineTextBox (63, 163)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+  id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+  id=49 paragraph READONLY (47, 268)-(326, 37) value= display=block html_tag=p name= child_ids=72
+    id=72 link READONLY (115, 268)-(190, 37) value= action=jump display=inline-block html_tag=a name=Forgot your password? child_ids=75
+      id=75 staticText READONLY (128, 277)-(164, 18) value=Forgot your password? display=inline name= child_ids=76
+        id=76 inlineTextBox (128, 277)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+  id=51 paragraph READONLY (47, 401)-(326, 21) value= display=block html_tag=p name= child_ids=78
+    id=78 staticText READONLY (108, 403)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=79
+      id=79 inlineTextBox (108, 403)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+  id=52 link READONLY (47, 432)-(326, 45) value= action=jump display=block html_tag=a name=JOIN TODAY child_ids=24
+    id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+      id=81 inlineTextBox (162, 445)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 106)-(41, 18) value=Email display=block name= child_ids=84
+  id=84 inlineTextBox (63, 106)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 163)-(71, 18) value=Password display=block name= child_ids=85
+  id=85 inlineTextBox (63, 163)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (128, 277)-(164, 18) value=Forgot your password? display=inline name= child_ids=86
+  id=86 inlineTextBox (128, 277)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (108, 403)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=87
+  id=87 inlineTextBox (108, 403)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=88
+  id=88 inlineTextBox (162, 445)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1216/085222:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1216/085223:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 134)-(39, 23) value=Email display=block name= child_ids=89
+  id=89 inlineTextBox (63, 134)-(39, 23) text_direction=lr value=Email name= character_offsets=9,23,31,35,39 word_starts=0 word_ends=5
+
+[1216/085223:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 191)-(69, 23) value=Password display=block name= child_ids=90
+  id=90 inlineTextBox (63, 191)-(69, 23) text_direction=lr value=Password name= character_offsets=10,18,26,34,46,54,60,69 word_starts=0 word_ends=8
+
+[1216/085223:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (131, 305)-(158, 23) value=Forgot your password? display=inline name= child_ids=91
+  id=91 inlineTextBox (131, 305)-(158, 23) text_direction=lr value=Forgot your password? name= character_offsets=9,17,23,31,40,46,49,57,65,74,80,84,92,101,109,116,129,137,143,151,158 word_starts=0,7,12 word_ends=6,11,20
+
+[1216/085223:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (114, 431)-(192, 20) value=Don't have a Bizagi account yet? display=inline name= child_ids=92
+  id=92 inlineTextBox (114, 431)-(192, 20) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=9,16,24,26,31,34,42,49,56,63,66,73,77,85,88,95,102,110,113,116,123,129,136,143,151,159,164,167,174,181,186,191 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1216/085223:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (169, 473)-(82, 23) value=JOIN TODAY display=inline name= child_ids=93
+  id=93 inlineTextBox (169, 473)-(82, 23) text_direction=lr value=JOIN TODAY name= character_offsets=5,15,19,30,34,42,52,63,72,81 word_starts=0,5 word_ends=4,10
+
+[1216/085223:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=66bc9170f4e0dbd71046655b2f731a67 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1216/085227:WARNING:message_in_transit_queue.cc(18)] Destroying nonempty message queue
+[1216/154035:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1216/154036:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1216/154036:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1216/154037:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+AXTreeUpdate: clear node 1
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=.4995759129524231 doc_loaded=false child_ids=12
+  id=12 group READONLY (60, 308)-(300, 17) value= name= child_ids=14
+    id=14 staticText READONLY (176, 308)-(68, 17) value=Loading ... display=inline name= child_ids=16
+      id=16 inlineTextBox (176, 308)-(68, 17) text_direction=lr value=Loading ... name= character_offsets=8,16,24,32,35,43,51,55,59,63,67 word_starts=0 word_ends=7
+
+[1216/154038:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 8
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1216/154038:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1216/154038:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635858772339466273 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+AXTreeUpdate: clear node 5
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.7558363080024719 doc_loaded=false child_ids=22
+  id=22 region OFFSCREEN READONLY (0, 0)-(0, 0) value= display=block html_tag=section role=region name=
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.7650417685508728 doc_loaded=false child_ids=22
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 22
+id=22 region READONLY VERTICAL (0, 0)-(420, 540) value= display=block html_tag=section role=region name= child_ids=40,43,45,48,49,51,52
+  id=40 heading READONLY (82, 16)-(323, 30) level=3 value= display=block html_tag=h3 name=Bizagi child_ids=63
+    id=63 image OFFSCREEN READONLY (0, 0)-(0, 0) value= description=Bizagi display=inline url=https://account.bizagi.com/app/img/bizagi-white.png html_tag=img role=img name=
+  id=43 textField FOCUSABLE REQUIRED (47, 94)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=64
+    id=64 div READONLY (63, 104)-(294, 23) value= display=block html_tag=div name= child_ids=66
+      id=66 staticText READONLY (63, 106)-(41, 18) value=Email display=block name= child_ids=67
+        id=67 inlineTextBox (63, 106)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+  id=45 textField FOCUSABLE PROTECTED REQUIRED (47, 151)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=68
+    id=68 div READONLY (63, 161)-(294, 23) value= display=block html_tag=div name= child_ids=70
+      id=70 staticText READONLY (63, 163)-(71, 18) value=Password display=block name= child_ids=71
+        id=71 inlineTextBox (63, 163)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+  id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+  id=49 paragraph READONLY (47, 268)-(326, 37) value= display=block html_tag=p name= child_ids=72
+    id=72 link READONLY (115, 268)-(190, 37) value= action=jump display=inline-block html_tag=a name=Forgot your password? child_ids=75
+      id=75 staticText READONLY (128, 277)-(164, 18) value=Forgot your password? display=inline name= child_ids=76
+        id=76 inlineTextBox (128, 277)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+  id=51 paragraph READONLY (47, 401)-(326, 21) value= display=block html_tag=p name= child_ids=78
+    id=78 staticText READONLY (108, 403)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=79
+      id=79 inlineTextBox (108, 403)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+  id=52 link READONLY (47, 432)-(326, 45) value= action=jump display=block html_tag=a name=JOIN TODAY child_ids=24
+    id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+      id=81 inlineTextBox (162, 445)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.7977774143218994 doc_loaded=false child_ids=22
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 106)-(41, 18) value=Email display=block name= child_ids=84
+  id=84 inlineTextBox (63, 106)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 163)-(71, 18) value=Password display=block name= child_ids=85
+  id=85 inlineTextBox (63, 163)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (128, 277)-(164, 18) value=Forgot your password? display=inline name= child_ids=86
+  id=86 inlineTextBox (128, 277)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (108, 403)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=87
+  id=87 inlineTextBox (108, 403)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=88
+  id=88 inlineTextBox (162, 445)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.7977774143218994 doc_loaded=false child_ids=22
+
+[1216/154041:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8078371286392212 doc_loaded=false child_ids=22
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 136)-(41, 18) value=Email display=block name= child_ids=89
+  id=89 inlineTextBox (63, 136)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 193)-(71, 18) value=Password display=block name= child_ids=90
+  id=90 inlineTextBox (63, 193)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (128, 307)-(164, 18) value=Forgot your password? display=inline name= child_ids=91
+  id=91 inlineTextBox (128, 307)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (108, 433)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=92
+  id=92 inlineTextBox (108, 433)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 475)-(96, 18) value=JOIN TODAY display=inline name= child_ids=93
+  id=93 inlineTextBox (162, 475)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8676126003265381 doc_loaded=false child_ids=22
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 134)-(39, 23) value=Email display=block name= child_ids=94
+  id=94 inlineTextBox (63, 134)-(39, 23) text_direction=lr value=Email name= character_offsets=9,23,31,35,39 word_starts=0 word_ends=5
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 191)-(69, 23) value=Password display=block name= child_ids=95
+  id=95 inlineTextBox (63, 191)-(69, 23) text_direction=lr value=Password name= character_offsets=10,18,26,34,46,54,60,69 word_starts=0 word_ends=8
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (131, 305)-(158, 23) value=Forgot your password? display=inline name= child_ids=96
+  id=96 inlineTextBox (131, 305)-(158, 23) text_direction=lr value=Forgot your password? name= character_offsets=9,17,23,31,40,46,49,57,65,74,80,84,92,101,109,116,129,137,143,151,158 word_starts=0,7,12 word_ends=6,11,20
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (114, 431)-(192, 20) value=Don't have a Bizagi account yet? display=inline name= child_ids=97
+  id=97 inlineTextBox (114, 431)-(192, 20) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=9,16,24,26,31,34,42,49,56,63,66,73,77,85,88,95,102,110,113,116,123,129,136,143,151,159,164,167,174,181,186,191 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (169, 473)-(82, 23) value=JOIN TODAY display=inline name= child_ids=98
+  id=98 inlineTextBox (169, 473)-(82, 23) text_direction=lr value=JOIN TODAY name= character_offsets=5,15,19,30,34,42,52,63,72,81 word_starts=0,5 word_ends=4,10
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1216/154042:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=0091c1275f40623268e23d82aaf61be5 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1216/154044:WARNING:message_in_transit_queue.cc(18)] Destroying nonempty message queue
+[1217/081630:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1217/081631:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1217/081631:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1217/081634:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+AXTreeUpdate: clear node 1
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=.7973083257675171 doc_loaded=false child_ids=12
+  id=12 group READONLY (60, 308)-(300, 17) value= name= child_ids=14
+    id=14 staticText READONLY (176, 308)-(68, 17) value=Loading ... display=inline name= child_ids=16
+      id=16 inlineTextBox (176, 308)-(68, 17) text_direction=lr value=Loading ... name= character_offsets=8,16,24,32,35,43,51,55,59,63,67 word_starts=0 word_ends=7
+
+[1217/081634:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 8
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1217/081634:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1217/081634:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859369839966483 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1217/081643:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+AXTreeUpdate: clear node 5
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.7868216037750244 doc_loaded=false
+
+[1217/081643:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 19
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8167109489440918 doc_loaded=false child_ids=22
+  id=22 region OFFSCREEN READONLY (0, 0)-(0, 0) value= display=block html_tag=section role=region name=
+
+[1217/081643:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8167109489440918 doc_loaded=false child_ids=22
+
+[1217/081643:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8167109489440918 doc_loaded=false child_ids=22
+
+[1217/081644:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 22
+id=22 region READONLY VERTICAL (0, 0)-(420, 580) value= display=block html_tag=section role=region name= child_ids=40,43,45,48,49,51,52
+  id=40 heading READONLY (82, 16)-(323, 30) level=3 value= display=block html_tag=h3 name=Bizagi child_ids=63
+    id=63 image OFFSCREEN READONLY (0, 0)-(0, 0) value= description=Bizagi display=inline url=https://account.bizagi.com/app/img/bizagi-white.png html_tag=img role=img name=
+  id=43 textField FOCUSABLE REQUIRED (47, 94)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=64
+    id=64 div READONLY (63, 104)-(294, 23) value= display=block html_tag=div name= child_ids=66
+      id=66 staticText READONLY (63, 106)-(41, 18) value=Email display=block name= child_ids=67
+        id=67 inlineTextBox (63, 106)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+  id=45 textField FOCUSABLE PROTECTED REQUIRED (47, 151)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=68
+    id=68 div READONLY (63, 161)-(294, 23) value= display=block html_tag=div name= child_ids=70
+      id=70 staticText READONLY (63, 163)-(71, 18) value=Password display=block name= child_ids=71
+        id=71 inlineTextBox (63, 163)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+  id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+  id=49 paragraph READONLY (47, 268)-(326, 37) value= display=block html_tag=p name= child_ids=72
+    id=72 link READONLY (115, 268)-(190, 37) value= action=jump display=inline-block html_tag=a name=Forgot your password? child_ids=75
+      id=75 staticText READONLY (128, 277)-(164, 18) value=Forgot your password? display=inline name= child_ids=76
+        id=76 inlineTextBox (128, 277)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+  id=51 paragraph READONLY (47, 401)-(326, 21) value= display=block html_tag=p name= child_ids=78
+    id=78 staticText READONLY (108, 403)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=79
+      id=79 inlineTextBox (108, 403)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+  id=52 link READONLY (47, 432)-(326, 45) value= action=jump display=block html_tag=a name=JOIN TODAY child_ids=24
+    id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+      id=81 inlineTextBox (162, 445)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1217/081644:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1217/081644:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1217/081644:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1217/081644:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1217/081644:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.873461127281189 doc_loaded=false child_ids=22
+
+[1217/081644:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.873461127281189 doc_loaded=false child_ids=22
+
+[1217/081647:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 134)-(39, 23) value=Email display=block name= child_ids=84
+  id=84 inlineTextBox (63, 134)-(39, 23) text_direction=lr value=Email name= character_offsets=9,23,31,35,39 word_starts=0 word_ends=5
+
+[1217/081647:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 191)-(69, 23) value=Password display=block name= child_ids=85
+  id=85 inlineTextBox (63, 191)-(69, 23) text_direction=lr value=Password name= character_offsets=10,18,26,34,46,54,60,69 word_starts=0 word_ends=8
+
+[1217/081647:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (131, 305)-(158, 23) value=Forgot your password? display=inline name= child_ids=86
+  id=86 inlineTextBox (131, 305)-(158, 23) text_direction=lr value=Forgot your password? name= character_offsets=9,17,23,31,40,46,49,57,65,74,80,84,92,101,109,116,129,137,143,151,158 word_starts=0,7,12 word_ends=6,11,20
+
+[1217/081647:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (114, 431)-(192, 20) value=Don't have a Bizagi account yet? display=inline name= child_ids=87
+  id=87 inlineTextBox (114, 431)-(192, 20) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=9,16,24,26,31,34,42,49,56,63,66,73,77,85,88,95,102,110,113,116,123,129,136,143,151,159,164,167,174,181,186,191 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1217/081647:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (169, 473)-(82, 23) value=JOIN TODAY display=inline name= child_ids=88
+  id=88 inlineTextBox (169, 473)-(82, 23) text_direction=lr value=JOIN TODAY name= character_offsets=5,15,19,30,34,42,52,63,72,81 word_starts=0,5 word_ends=4,10
+
+[1217/081647:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/081647:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=72ad13f7cefe03da61a42f4b4ad89010 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/083007:WARNING:message_in_transit_queue.cc(18)] Destroying nonempty message queue
+[1217/084947:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[1217/102247:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1217/102248:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1217/102248:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 1
+id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= html_tag=#document doc_title= doc_url= doc_mimetype=text/html name= doc_progress=1 doc_loaded=true
+
+[1217/102252:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+AXTreeUpdate: clear node 1
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=.5 doc_loaded=false child_ids=12
+  id=12 group READONLY (60, 308)-(300, 17) value= name= child_ids=14
+    id=14 staticText READONLY (176, 308)-(68, 17) value=Loading ... display=inline name= child_ids=16
+      id=16 inlineTextBox (176, 308)-(68, 17) text_direction=lr value=Loading ... name= character_offsets=8,16,24,32,35,43,51,55,59,63,67 word_starts=0 word_ends=7
+
+[1217/102258:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 8
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1217/102258:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1217/102258:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 5
+id=5 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 html_tag=#document doc_title=Process Modeler Cloud Web Application doc_url=https://model.bizagi.com/oauth.html?isModeler=true&lang=en&guid=98ee4271-aa6f-42b0-9fb9-f44f87c13941&r=635859445650961531 doc_mimetype=text/html doc_doctype=html name=Process Modeler Cloud Web Application doc_progress=1 doc_loaded=true child_ids=12
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+AXTreeUpdate: clear node 5
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 581) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8819979429244995 doc_loaded=false child_ids=22
+  id=22 region OFFSCREEN READONLY (0, 0)-(0, 0) value= display=block html_tag=section role=region name=
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8914629220962524 doc_loaded=false child_ids=22
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=.8918182849884033 doc_loaded=false child_ids=22
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: loadComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 22
+id=22 region READONLY VERTICAL (0, 0)-(420, 540) value= display=block html_tag=section role=region name= child_ids=40,43,45,48,49,51,52
+  id=40 heading READONLY (82, 16)-(323, 30) level=3 value= display=block html_tag=h3 name=Bizagi child_ids=63
+    id=63 image OFFSCREEN READONLY (0, 0)-(0, 0) value= description=Bizagi display=inline url=https://account.bizagi.com/app/img/bizagi-white.png html_tag=img role=img name=
+  id=43 textField FOCUSABLE REQUIRED (47, 94)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=64
+    id=64 div READONLY (63, 104)-(294, 23) value= display=block html_tag=div name= child_ids=66
+      id=66 staticText READONLY (63, 106)-(41, 18) value=Email display=block name= child_ids=67
+        id=67 inlineTextBox (63, 106)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+  id=45 textField FOCUSABLE PROTECTED REQUIRED (47, 151)-(326, 43) sel_start=0 sel_end=0 value= action=activate display=block html_tag=input name= can_set_value=true child_ids=68
+    id=68 div READONLY (63, 161)-(294, 23) value= display=block html_tag=div name= child_ids=70
+      id=70 staticText READONLY (63, 163)-(71, 18) value=Password display=block name= child_ids=71
+        id=71 inlineTextBox (63, 163)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+  id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+  id=49 paragraph READONLY (47, 268)-(326, 37) value= display=block html_tag=p name= child_ids=72
+    id=72 link READONLY (115, 268)-(190, 37) value= action=jump display=inline-block html_tag=a name=Forgot your password? child_ids=75
+      id=75 staticText READONLY (128, 277)-(164, 18) value=Forgot your password? display=inline name= child_ids=76
+        id=76 inlineTextBox (128, 277)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+  id=51 paragraph READONLY (47, 401)-(326, 21) value= display=block html_tag=p name= child_ids=78
+    id=78 staticText READONLY (108, 403)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=79
+      id=79 inlineTextBox (108, 403)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+  id=52 link READONLY (47, 432)-(326, 45) value= action=jump display=block html_tag=a name=JOIN TODAY child_ids=24
+    id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+      id=81 inlineTextBox (162, 445)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 23
+id=48 button FOCUSABLE READONLY (47, 208)-(326, 46) value= action=press display=block html_tag=button name=LOGIN
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: textChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=81
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 106)-(41, 18) value=Email display=block name= child_ids=84
+  id=84 inlineTextBox (63, 106)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 163)-(71, 18) value=Password display=block name= child_ids=85
+  id=85 inlineTextBox (63, 163)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (128, 277)-(164, 18) value=Forgot your password? display=inline name= child_ids=86
+  id=86 inlineTextBox (128, 277)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (108, 403)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=87
+  id=87 inlineTextBox (108, 403)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 445)-(96, 18) value=JOIN TODAY display=inline name= child_ids=88
+  id=88 inlineTextBox (162, 445)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1217/102302:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/102303:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/102303:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 136)-(41, 18) value=Email display=block name= child_ids=89
+  id=89 inlineTextBox (63, 136)-(41, 18) text_direction=lr value=Email name= character_offsets=11,24,33,36,40 word_starts=0 word_ends=5
+
+[1217/102303:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 193)-(71, 18) value=Password display=block name= child_ids=90
+  id=90 inlineTextBox (63, 193)-(71, 18) text_direction=lr value=Password name= character_offsets=11,20,28,36,47,56,61,70 word_starts=0 word_ends=8
+
+[1217/102303:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (128, 307)-(164, 18) value=Forgot your password? display=inline name= child_ids=91
+  id=91 inlineTextBox (128, 307)-(164, 18) text_direction=lr value=Forgot your password? name= character_offsets=10,19,24,33,42,46,51,59,68,76,82,86,95,104,112,120,132,141,146,155,164 word_starts=0,7,12 word_ends=6,11,20
+
+[1217/102303:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (108, 433)-(204, 17) value=Don't have a Bizagi account yet? display=inline name= child_ids=92
+  id=92 inlineTextBox (108, 433)-(204, 17) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=10,18,26,29,33,37,45,53,60,68,72,80,84,93,96,103,111,119,122,126,134,141,148,156,164,172,176,180,187,195,199,207 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1217/102303:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (162, 475)-(96, 18) value=JOIN TODAY display=inline name= child_ids=93
+  id=93 inlineTextBox (162, 475)-(96, 18) text_direction=lr value=JOIN TODAY name= character_offsets=8,20,25,36,41,51,63,75,85,96 word_starts=0,5 word_ends=4,10
+
+[1217/102303:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/102304:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 66
+id=66 staticText READONLY (63, 134)-(39, 23) value=Email display=block name= child_ids=94
+  id=94 inlineTextBox (63, 134)-(39, 23) text_direction=lr value=Email name= character_offsets=9,23,31,35,39 word_starts=0 word_ends=5
+
+[1217/102304:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 70
+id=70 staticText READONLY (63, 191)-(69, 23) value=Password display=block name= child_ids=95
+  id=95 inlineTextBox (63, 191)-(69, 23) text_direction=lr value=Password name= character_offsets=10,18,26,34,46,54,60,69 word_starts=0 word_ends=8
+
+[1217/102304:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 75
+id=75 staticText READONLY (131, 305)-(158, 23) value=Forgot your password? display=inline name= child_ids=96
+  id=96 inlineTextBox (131, 305)-(158, 23) text_direction=lr value=Forgot your password? name= character_offsets=9,17,23,31,40,46,49,57,65,74,80,84,92,101,109,116,129,137,143,151,158 word_starts=0,7,12 word_ends=6,11,20
+
+[1217/102304:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 78
+id=78 staticText READONLY (114, 431)-(192, 20) value=Don't have a Bizagi account yet? display=inline name= child_ids=97
+  id=97 inlineTextBox (114, 431)-(192, 20) text_direction=lr value=Don't have a Bizagi account yet? name= character_offsets=9,16,24,26,31,34,42,49,56,63,66,73,77,85,88,95,102,110,113,116,123,129,136,143,151,159,164,167,174,181,186,191 word_starts=0,6,11,13,20,28 word_ends=5,10,12,19,27,31
+
+[1217/102304:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: childrenChanged on node id 24
+id=24 staticText READONLY (169, 473)-(82, 23) value=JOIN TODAY display=inline name= child_ids=98
+  id=98 inlineTextBox (169, 473)-(82, 23) text_direction=lr value=JOIN TODAY name= character_offsets=5,15,19,30,34,42,52,63,72,81 word_starts=0,5 word_ends=4,10
+
+[1217/102304:INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 17
+id=17 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(420, 580) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=0 value= url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 html_tag=#document doc_title=Bizagi Accounts doc_url=https://account.bizagi.com/core/login?signin=109860077c00d528c73c8c0bedb21280 doc_mimetype=text/html doc_doctype=html name=Bizagi Accounts doc_progress=1 doc_loaded=true child_ids=22
+
+[1217/104643:WARNING:message_in_transit_queue.cc(18)] Destroying nonempty message queue

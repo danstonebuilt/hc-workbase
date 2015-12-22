@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Modal.master.cs" Inherits="Hcrp.CarroUrgenciaPsicoativo.Apresentacao.Master.Modal" %>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+        </button>
+        <h4 class="modal-title text-primary" id="myModalLabel">
+            <asp:ContentPlaceHolder runat="server" ID="cphCabecalho">
+            </asp:ContentPlaceHolder>
+        </h4>
+    </div>
+    <div class="modal-body">
+        <asp:ContentPlaceHolder runat="server" ID="cphCorpoPagina">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

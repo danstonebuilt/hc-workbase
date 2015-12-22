@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3F283E8-70D0-4A8C-BDF2-05D490A3A713}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hcrp.CarroUrgenciaPsicoativo.BLL</RootNamespace>
+    <AssemblyName>Hcrp.CarroUrgenciaPsicoativo.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Hcrp.Classes">
+      <HintPath>..\..\BinRelease\Hcrp.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="Hcrp.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hcrp.Framework\bin\Debug\Hcrp.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Windows\Microsoft.NET\Framework\v4.0.30319\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtendimentoPaciente.cs" />
+    <Compile Include="BemPatrimonial.cs" />
+    <Compile Include="CentroDeCusto.cs" />
+    <Compile Include="Dataset\DsPreviewConsumoCarrinho.cs">
+      <DependentUpon>DsPreviewConsumoCarrinho.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dataset\DsPreviewConsumoCarrinho.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsPreviewConsumoCarrinho.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\DsPreviewRegConsumoSaida.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsPreviewRegConsumoSaida.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\DsPreviewTrocaDeMaterial.cs">
+      <DependentUpon>DsPreviewTrocaDeMaterial.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dataset\DsPreviewTrocaDeMaterial.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsPreviewTrocaDeMaterial.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricoLacreRepositorio.cs" />
+    <Compile Include="IdentificacaoLocal.cs" />
+    <Compile Include="Infra\Email.cs" />
+    <Compile Include="Infra\EnumUtil.cs" />
+    <Compile Include="Instituto.cs" />
+    <Compile Include="IntegraAplicativo.cs" />
+    <Compile Include="Infra\Parametrizacao.cs" />
+    <Compile Include="Infra\CarroUrgenciaPsicoativoPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Infra\Util.cs" />
+    <Compile Include="ItensListaControle.cs" />
+    <Compile Include="LacreOcorrencia.cs" />
+    <Compile Include="LacreRepositorio.cs" />
+    <Compile Include="LacreRepositorioComplemento.cs" />
+    <Compile Include="LacreRepositorioEquipamento.cs" />
+    <Compile Include="LacreRepositorioItens.cs" />
+    <Compile Include="LacreRepositorioUtilizacao.cs" />
+    <Compile Include="LacreTipoOcorrencia.cs" />
+    <Compile Include="ListaControle.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Lote.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Paciente.cs" />
+    <Compile Include="Perfil.cs" />
+    <Compile Include="Programa.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositorioListaControle.cs" />
+    <Compile Include="TempGenericaHC.cs" />
+    <Compile Include="TipoBem.cs" />
+    <Compile Include="TipoPatrimonio.cs" />
+    <Compile Include="TipoRepositorioListaControle.cs.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hcrp.CarroUrgenciaPsicoativo.DAL\Hcrp.CarroUrgenciaPsicoativo.DAL.csproj">
+      <Project>{5B298C12-A0C5-4D59-AD74-F117ED6E8901}</Project>
+      <Name>Hcrp.CarroUrgenciaPsicoativo.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hcrp.CarroUrgenciaPsicoativo.Entity\Hcrp.CarroUrgenciaPsicoativo.Entity.csproj">
+      <Project>{1F6C4AA9-5653-4BD1-A0E0-64F2B52ED641}</Project>
+      <Name>Hcrp.CarroUrgenciaPsicoativo.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Dataset\DsPreviewConsumoCarrinho.xsc">
+      <DependentUpon>DsPreviewConsumoCarrinho.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\DsPreviewConsumoCarrinho.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsPreviewConsumoCarrinho.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\DsPreviewConsumoCarrinho.xss">
+      <DependentUpon>DsPreviewConsumoCarrinho.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\DsPreviewRegConsumoSaida.xsc">
+      <DependentUpon>DsPreviewRegConsumoSaida.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\DsPreviewRegConsumoSaida.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsPreviewRegConsumoSaida.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\DsPreviewRegConsumoSaida.xss">
+      <DependentUpon>DsPreviewRegConsumoSaida.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\DsPreviewTrocaDeMaterial.xsc">
+      <DependentUpon>DsPreviewTrocaDeMaterial.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\DsPreviewTrocaDeMaterial.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsPreviewTrocaDeMaterial.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\DsPreviewTrocaDeMaterial.xss">
+      <DependentUpon>DsPreviewTrocaDeMaterial.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

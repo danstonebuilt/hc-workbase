@@ -1,0 +1,14 @@
+C:\HC_Atual\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.dll
+C:\HC_Atual\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.pdb
+C:\HC_Atual\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.Framework.dll
+C:\HC_Atual\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.Framework.pdb
+C:\HC_Atual\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\obj\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.csprojResolveAssemblyReference.cache
+C:\HC_Atual\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\obj\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.dll
+C:\HC_Atual\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\obj\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.pdb
+C:\Users\Daniel\Documents\dn-core\hc-workbase\workspace\webprj\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.dll
+C:\Users\Daniel\Documents\dn-core\hc-workbase\workspace\webprj\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.pdb
+C:\Users\Daniel\Documents\dn-core\hc-workbase\workspace\webprj\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.Framework.pdb
+C:\Users\Daniel\Documents\dn-core\hc-workbase\workspace\webprj\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\obj\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\dn-core\hc-workbase\workspace\webprj\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\obj\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.dll
+C:\Users\Daniel\Documents\dn-core\hc-workbase\workspace\webprj\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\obj\Debug\Hcrp.CarroUrgenciaPsicoativo.Entity.pdb
+C:\Users\Daniel\Documents\dn-core\hc-workbase\workspace\webprj\Carrinho\Hcrp.CarroUrgenciaPsicoativo.Entity\bin\Debug\Hcrp.Framework.dll

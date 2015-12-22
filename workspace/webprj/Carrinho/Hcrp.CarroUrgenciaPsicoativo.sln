@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcrp.CarroUrgenciaPsicoativo.BLL", "Hcrp.CarroUrgenciaPsicoativo.BLL\Hcrp.CarroUrgenciaPsicoativo.BLL.csproj", "{C3F283E8-70D0-4A8C-BDF2-05D490A3A713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcrp.CarroUrgenciaPsicoativo.Apresentacao", "Hcrp.CarroUrgenciaPsicoativo.Apresentacao\Hcrp.CarroUrgenciaPsicoativo.Apresentacao.csproj", "{EDE1867C-970D-48DE-8342-8B54ED1F1223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcrp.CarroUrgenciaPsicoativo.Entity", "Hcrp.CarroUrgenciaPsicoativo.Entity\Hcrp.CarroUrgenciaPsicoativo.Entity.csproj", "{1F6C4AA9-5653-4BD1-A0E0-64F2B52ED641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcrp.CarroUrgenciaPsicoativo.DAL", "Hcrp.CarroUrgenciaPsicoativo.DAL\Hcrp.CarroUrgenciaPsicoativo.DAL.csproj", "{5B298C12-A0C5-4D59-AD74-F117ED6E8901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcrp.Framework", "..\Hcrp.Framework\Hcrp.Framework.csproj", "{4D1D14C4-2722-4A81-BCBD-1581E6BCC109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3F283E8-70D0-4A8C-BDF2-05D490A3A713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F283E8-70D0-4A8C-BDF2-05D490A3A713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F283E8-70D0-4A8C-BDF2-05D490A3A713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F283E8-70D0-4A8C-BDF2-05D490A3A713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE1867C-970D-48DE-8342-8B54ED1F1223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE1867C-970D-48DE-8342-8B54ED1F1223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE1867C-970D-48DE-8342-8B54ED1F1223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE1867C-970D-48DE-8342-8B54ED1F1223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6C4AA9-5653-4BD1-A0E0-64F2B52ED641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6C4AA9-5653-4BD1-A0E0-64F2B52ED641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6C4AA9-5653-4BD1-A0E0-64F2B52ED641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6C4AA9-5653-4BD1-A0E0-64F2B52ED641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B298C12-A0C5-4D59-AD74-F117ED6E8901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B298C12-A0C5-4D59-AD74-F117ED6E8901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B298C12-A0C5-4D59-AD74-F117ED6E8901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B298C12-A0C5-4D59-AD74-F117ED6E8901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1D14C4-2722-4A81-BCBD-1581E6BCC109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1D14C4-2722-4A81-BCBD-1581E6BCC109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1D14C4-2722-4A81-BCBD-1581E6BCC109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1D14C4-2722-4A81-BCBD-1581E6BCC109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hcrp.Framework.Classes.Alinea">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAAQAAAAAAAEAAAAAAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\Alinea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hcrp.Framework.Classes.CentroDeCusto">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAEAABAgAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\CentroDeCusto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hcrp.Framework.Classes.GrupoDeCentroDeCusto">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAABAAAIIAAAQAAAACAAAACAAEAAAA=</HashCode>
+      <FileName>Classes\GrupoDeCentroDeCusto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hcrp.Framework.Classes.Material">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAAAAAAAAAAEAABAAAAAAAAAgAAAAEAAAA=</HashCode>
+      <FileName>Classes\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hcrp.Framework.Classes.Grupo">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAgAAAAAAAAAABAAAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\Grupo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
