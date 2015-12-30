@@ -24,3 +24,6 @@ pass:  ea132104ALL
 SVN
 Login: daanselmo
 pass: svn132104ALL
+
+WIFI
+hcrp#$13
