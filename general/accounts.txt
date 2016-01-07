@@ -22,7 +22,7 @@ Login: daanselmo
 pass:  ea132104ALL
 
 SVN
-Login: daanselmo
+Login: DAANSELMO
 pass: svn132104ALL
 
 WIFI
