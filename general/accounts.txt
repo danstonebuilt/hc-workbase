@@ -27,3 +27,6 @@ pass: svn132104ALL
 
 WIFI
 hcrp#$13
+
+TELEFONE
+3602-2986

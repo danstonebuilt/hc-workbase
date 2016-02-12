@@ -1,0 +1,6 @@
+$('H1')
+	.css("color", "#947CBB")
+	.hide()
+	.delay('2000')
+	.fadeIn("slow")
+	.text('News Comeby');

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Base file of HTML</title>
+	<script type="text/javascript" src="lib/jquery-2.2.0.min.js"></script>
+    
+    <!--
+    
+    <link rel="stylesheet" href="lib/NotifIt/notifIt/css/notifIt.css">
+    -->
+    
+    <!-- Incluindo o JavaScript do Bootstrap -->
+    <!--
+     
+    
+-->
+    <script type="text/javascript" src="lib/NotifIt/notifIt/js/notifIt.js"></script>
+     <script src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="lib/notify.js"></script>
+   
+</head>
+<body>
+    
+    <form id="myform">
+     <p><input type="text" placeholder="text" id="ipt" name="ipt"></p>
+     <p><input type="text" placeholder="Type here" id="ipt2" name="ipt2"></p>
+        
+        
+        <button type="submit">Button</button>
+    </form>   
+    
+
+
+    <script>
+        $(function() {
+            
+           $ipt = $('#ipt');
+           $ipt2 = $('#ipt2');
+            
+           $ipt.on('keypress', function(e) {
+               
+               if(e.which == '13')
+               {
+                   
+                   if(validateFields( $(this) ) > 0) {
+                       return false;
+                   }
+                   
+                   
+                   //ExibirMensagemAlerta("Testing if works..");
+                   //e.preventDefault();
+                   
+               }
+           });
+            
+            $ipt2.on('keypress', function(e) {
+               
+               if(e.which == '13')
+               {
+                  if(validateFields( $(this) ) > 0) {
+                       return false;
+                   }
+               }
+           });
+            
+        });
+        
+         /*Objects*/
+        var validateEmpty = {
+
+            ocorrencia: function (field) {
+                if (typeof field == "object")
+                {
+                    if (field.val() == "")
+                        return true;
+                }
+            },
+
+            gerarMsg: function () { ExibirMensagemAlerta("Campo não pode ser vazio."); }
+        }
+
+        var validateFormat = {
+
+            ocorrencia: function (field) {
+                if (typeof field == "object") {
+                    var er = /^[A-Z]{2}\d{8}$/;
+
+                    if (!er.test(field.val()))
+                        return true;
+                }
+            },
+
+            gerarMsg: function () { ExibirMensagemAlerta("Código Repositório não esta no padrão."); }
+        }
+        
+        var validateEqualityCodDest = function(inputOrg, inputDest) {
+
+            validar: function (inputOrg, inputDest) {
+                if (typeof inputOrg == "object" && inputDest == "object")
+                    if (inputOrg.val() == inputDest.val()) return true;
+
+            },
+
+            motivo: function () {
+                ExibirMensagemAlerta("Código Destino não pode ser igual origem.");
+            }
+        }
+
+        //---------------------------------------------------
+        /*Common functions*/
+
+        function validateFields(input, _opcInput) {
+            var validations = new Array(validateEmpty, validateFormat, new validateEqualityCodDest(input, _opcInput));
+            var exceptions = 0;
+
+            $.each(validations, function (index, val) {
+                if (val.ocorrencia(input)) {
+                    val.gerarMsg();
+                    exceptions++;
+                }
+            });
+
+            return exceptions;
+        }
+        
+        function ExibirMensagemAlerta(msg) {
+            if(typeof msg == "string")
+            {
+                $.notify(msg, "warn");     
+            }
+        }
+        
+            
+        function simple(str, opc) {            
+            console.log(str + ' - ' + opc);
+        }
+       
+    </script>
+</body>
+</html>

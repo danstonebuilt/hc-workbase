@@ -1,0 +1,47 @@
+INICIO: 14:00
+FIM:
+
+Reunião Ficha Anestésica/ Antimicrobiana
+
+GERENCIAMENTO DE FICHA ANESTÉSICA
+- Ficha anestésica funciona em comjunto com ficha operatória (UE)
+- Acesso via ATHOS
+- Adaptar sistema para HC
+- Destacar linha da ficha paciente em sala
+
+FICHA ANESTÉSICA
+- Dados vem da ficha operatória
+- Kit vem da farmarcia e vai para centro cirurgico
+	SESSÕES
+	  ANESTESIA
+	  - Associar ficha anestésica com anestesia
+	  
+	  EQUIPE
+	  - Profissionais vem da ficha operatória(Atualizada por minuto)
+	  
+	  PROCEDIMENTO
+	  - Mesma funcionalidae que a equipe, tbem vem da ficha operatória
+	  
+	  INTUBAÇÃO
+	  - Pode ter ou não
+	  
+	  OBESERVAÇÃO
+	  - Campo aberto
+	  
+	  INALATÓRIO
+	  - Parametrizado
+	  
+	  VENOSO/ HIDRATAÇÃO
+	  - Timeline, atualizado qdo medicamentos forem informados
+	  
+	  SINAIS VITAIS
+	  - Informar sinais do paciente de 5-10 minutos
+	  
+	  MEDICAMENTOS
+	  - Código de bararas do medicamento
+	  - identificar nome do material/ Unidade e apresentação
+	  - Pode alterar horario, Quantidade
+	  - Identificar se medicamento pertence ao kit
+	  
+	  
+	  

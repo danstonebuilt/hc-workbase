@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo 'Start install Grunt.\n\n'
+
+sudo npm install &&
+npm install -g grunt-cli &&
+npm install grunt-contrib-concat --save-dev &&
+npm install grunt-contrib-uglify --save-dev &&
+npm install grunt-contrib-imagemin --save-dev &&
+npm install grunt-contrib-watch --save-dev
+
+echo '\n\nFinish install Grunt.'

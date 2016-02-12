@@ -1,0 +1,27 @@
+div
+{
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	margin: 10px auto;	
+}
+
+#div_main
+{
+	background-color: #FF00FF;
+}
+
+.evt-hide
+{
+	background-color: #7FFFD4;
+}
+
+.evt-show
+{
+	background-color: #556B2F;
+}
+
+.evt-toggle
+{
+	background-color: #FFAEB9;
+}
