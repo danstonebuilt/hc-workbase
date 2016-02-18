@@ -1,0 +1,42 @@
+PLANEJAMENTO
+-->DOCUMENTAÇÃO - ELICITAÇÃO
+	- Criar Diagrama de Requisitos
+	- Criar Protótipo Inicial
+	- Efetuar Reunião de alinhamento de requisitos
+	- Preencher planilha de PCU atualizada
+	- Criação de plano de gerenciamento do projeto
+- Analise de viabilidade
+- Aprovar o plano do projeto
+* Conclusão do Planejamento(Ponto de controle)
+EXECUÇÃO
+-->DOCUMENTAÇÃO
+   - Criar protótipo detalhado
+   - Criar diagrama de requisitos
+   - Efetuar Reunião de alinhamento de requisitos(reunião com usuário).
+   - Criar diagrama de caso de uso(Não detalhado).
+   - Criar de validar modelo de Entidade e Relacionamentos - MER
+   - Gerar Scripts para execução no Banco de Dados.
+   - Efeturar Reunião com a equipe do produto
+- Criar diretório virtual em homologação e produção
+- Criar branch para desenvolvimento
+- Efetuar teste de conformidade
+* Marco de verificação
+- Contratar fabrica de software
+- Contar pontos por função - APF
+- Reunião inicial com Fabrica de Software
+- Codificação do Sistema(com 3 recursos)
+- Montar plano de teste
+- Efeturar aquisições do projeto
+* Ponto de controle
+- Validar sistema em ambiente de homologação
+- Testar sistema em ambiente de homologação
+- Correções pela fabrica de software
+- Testes finais do sistema em ambiente de homologação
+- Gerar versão paera publicação em ambiente produção
+- Aprovação de requisitos
+- Liberar sistema em produção
+* Conclusão da execução
+ENCERRAMENTO
+- Reunião de lições aprendidas
+- Aprovação do termo de encerramento
+* Conclusão do Projeto.

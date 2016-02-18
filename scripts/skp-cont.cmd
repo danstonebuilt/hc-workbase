@@ -1,2 +1,2 @@
 @echo off
-explorer C:\Users\Daniel\AppData\Roaming\Skype\My Skype Received Files
+explorer C:\Users\Usuario\AppData\Roaming\Skype\My Skype Received Files

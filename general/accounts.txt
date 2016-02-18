@@ -1,6 +1,7 @@
 EMAIL
 daanselmo@hcrp.fmrp.usp.br
 pass: hcrp6373
+pass google: GOO132104ALL
 Nome da conta: daanselmo	
 Servidor pop3: hcrp.fmrp.usp.br
 Servidor SMTP  hcrp.fmrp.usp.br
