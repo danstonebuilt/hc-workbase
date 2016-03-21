@@ -1,0 +1,38 @@
+DECLARE
+  P_COD_PACIENTE atendimento_paciente.cod_paciente%TYPE := '1189495I';
+  P_DTA_INI  atendimento_paciente.dta_hor_abertura%TYPE := to_date('17/03/2016', 'dd/mm/YYYY');
+  P_DTA_FIM atendimento_paciente.dta_hor_abertura%TYPE := to_date('18/03/2016', 'dd/mm/YYYY');
+  P_COD_INSTITUTO instituto.cod_instituto%TYPE := 1;
+  CS_CRITICAS SYS_REFCURSOR;
+  
+  TYPE tp_record_refcur IS RECORD (
+       DATA_OCORRENCIA  atendimento_paciente.dta_hor_abertura%TYPE,
+       REGISTRO         VARCHAR2(500),
+       PACIENTE         VARCHAR2(500),             
+       OCORRENCIA       VARCHAR2(500)
+  );
+  
+  l_rec_cursor tp_record_refcur;
+  
+  
+BEGIN
+   GENERICO.PROC_CRITICA_PRONTUARIO (NULL,
+                                     '17/03/2014',
+                                     '30/03/2014',
+                                     1,
+                                     CS_CRITICAS);
+                                     
+     LOOP
+       FETCH CS_CRITICAS  INTO l_rec_cursor;
+        EXIT WHEN CS_CRITICAS%NOTFOUND;
+        dbms_output.put_line( l_rec_cursor.DATA_OCORRENCIA||'| '||
+                              l_rec_cursor.REGISTRO||' | '||
+                              l_rec_cursor.PACIENTE||' | '||
+                              l_rec_cursor.OCORRENCIA);
+     END LOOP; 
+     CLOSE CS_CRITICAS;                        
+                                     
+END;
+
+
+
