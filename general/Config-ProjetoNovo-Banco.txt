@@ -1,0 +1,5 @@
+/*Essas opções iniciais podem ser feitas pelo ACESSO2 HC*/
+- Cadastrar sistema: tabela sistema
+
+- Cadastrar role ou associar uma existente ao sistema cadastrado: tabela perfil
+
