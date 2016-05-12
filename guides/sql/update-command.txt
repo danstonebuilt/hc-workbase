@@ -5,6 +5,6 @@ WHERE "condicao"
 
 
 Ex:
-UPDAE programa P
+UPDATE programa P
     SET P.nom_exibicao_programa = 'GERENCIAMENTO PRONTUÁRIO ELETRÔNICO'
     WHERE P.COD_PROGRAMA = 915;

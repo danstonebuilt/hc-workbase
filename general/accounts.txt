@@ -10,7 +10,11 @@ CONJUNTO SISTEMAS HC
 login: DAANSELMO
   pss: hcf132104AL
 
-ORACLE
+ORACLE DEV
+login: generico
+pass: pkcdgvsd
+
+ORACLE HML
 Login: daanselmo
 pass: hcrp1234
 

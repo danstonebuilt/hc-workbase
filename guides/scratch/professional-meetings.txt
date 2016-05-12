@@ -1,3 +1,43 @@
+SELECT * FROM atendimento_paciente ap
+WHERE ap.cod_paciente = '0578030F'
+ORDER BY ap.ano_atendimento DESC
+
+//Relatório de qtd por especialidade
+SELECT       
+       COUNT(*),
+       t.cod_especialidade_hc,
+       e.nom_especialidade_hc
+  FROM GENERICO.ATENDIMENTO_FORM_PACIENTE t,
+       ESPECIALIDADE_HC e
+  WHERE t.cod_especialidade_hc = e.cod_especialidade_hc
+ AND T.COD_PACIENTE = '0012000F'
+ AND t.dta_hor_atendimento
+  BETWEEN to_date('17/05/2013', 'dd/mm/YYYY')  AND to_date('01/02/2014', 'dd/mm/YYYY')
+ GROUP BY t.cod_especialidade_hc, nom_especialidade_hc
+
+ //Relatório de atendimento por profissão médica
+ SELECT DISTINCT COUNT(*) "Nro. atend Pacientes",
+       t.cod_profissional,
+       p.nom_profissional,
+       p.sbn_profissional,      
+       r.nom_profissao, trunc(f.dta_hor_atendimento)
+  FROM ATEND_FORM_PACIENTE_PROF t,
+       PROFISSIONAL p,
+       PROFISSAO    r,
+       ATENDIMENTO_FORM_PACIENTE f
+WHERE t.cod_profissional = p.cod_profissional
+AND      t.num_profissao    = r.num_profissao
+AND f.seq_atend_form_paciente = t.seq_atend_form_paciente
+ AND trunc(f.DTA_HOR_ATENDIMENTO)
+    BETWEEN TRUNC(TO_DATE('17/05/2013', 'dd/mm/YYYY'))
+       AND
+            trunc(TO_DATE('01/12/2013', 'dd/mm/YYYY'))
+AND   t.num_profissao = 1  
+GROUP BY t.cod_profissional,
+         p.nom_profissional,
+         p.sbn_profissional,        
+         r.nom_profissao,trunc(f.dta_hor_atendimento)
+
 Greet
 
 Introduce yourself
