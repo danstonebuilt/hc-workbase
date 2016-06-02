@@ -1,0 +1,30 @@
+using Faepa.Extensao;
+
+<ddp:DynamicDataPager ID="ddpPaginacao" runat="server" PageSize="20" ButtonCount="10"
+                                    CssClass="pagination pagination-centered" CurrentPageLabelCssClass="active"
+                                    StartRowIndex="1" OnSelectedIndexChanged="ddpPaginacao_SelectedIndexChanged" />
+
+
+protected void ddpPaginacao_SelectedIndexChanged(object sender, Faepa.DynamicDataPagerControl.DynamicDataPager.DDPEventArgs e)
+        {
+            Pesquisar(e.SelectedIndex);           
+        }
+
+
+ private void Pesquisar(int Pagina)
+        {           
+            //lvDesbloqueio.DataSource = DS_Desbloqueio;
+            var tmpList = new BLL.LiberaAcessoUser().PesquisarUserPorCPF(txtNumUsuario.Text);           
+
+            ddpPaginacao.TotalRowCount = tmpList.Count;
+            ddpPaginacao.CurrentPageIndex = Pagina;
+
+            lvDesbloqueio.DataSource = tmpList.Paginar(ddpPaginacao.CurrentPageIndex, ddpPaginacao.PageSize).ToList();
+            lvDesbloqueio.DataBind();
+        }
+
+ if (!Page.IsPostBack)
+            {
+                //RefreshDS();
+                Pesquisar(ddpPaginacao.CurrentPageIndex);
+}
