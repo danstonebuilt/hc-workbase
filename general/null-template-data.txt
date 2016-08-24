@@ -1,0 +1,1 @@
+<%# (Eval("ValidadeCertificado").ToString() == DateTime.MinValue.ToString() ? "" : Eval("ValidadeCertificado").ToString()) %>

@@ -6,7 +6,7 @@ create or replace package PCG_LIBERA_ACESSO_CERTDIG is
   
  FUNCTION usuario_existe(p_cpfuser profissional.cpf_profissional%TYPE) RETURN BOOLEAN;
  
- PROCEDURE get_usuario( p_cpfuser      profissional.cpf_profissional%TYPE,
+ PROCEDURE get_usuario_by_cpf( p_cpfuser      profissional.cpf_profissional%TYPE,
                         p_retorno      OUT SYS_REFCURSOR );
  
  PROCEDURE get_usuario_by_name(p_nomuser VARCHAR2,
@@ -16,11 +16,16 @@ create or replace package PCG_LIBERA_ACESSO_CERTDIG is
                                   P_RETORNO OUT SYS_REFCURSOR);
                                   
 PROCEDURE get_cert_libera_acesso_by_seq(P_SEQUSER  cert_liberacao_acesso.seq_cert_liberacao_acesso%TYPE,
-                                        P_RETORNO OUT SYS_REFCURSOR);                                 
+                                        P_RETORNO OUT SYS_REFCURSOR);
+                                        
+PROCEDURE get_cert_criticas_ocorrencia(  P_DATA_INICIAL IN VARCHAR2,
+                                         P_DATA_FINAL IN VARCHAR2,
+                                         P_RETORNO OUT SYS_REFCURSOR);                                
   
-  PROCEDURE update_libera_acesso(P_SEQUSER  cert_liberacao_acesso.seq_cert_liberacao_acesso%TYPE,
+PROCEDURE update_libera_acesso(P_SEQUSER  cert_liberacao_acesso.seq_cert_liberacao_acesso%TYPE,
                                     P_DATALIMITE cert_liberacao_acesso.dta_limite%TYPE);
 
+ PROCEDURE delete_liberacao_acesso(P_SEQUSER  cert_liberacao_acesso.seq_cert_liberacao_acesso%TYPE);
 
  PROCEDURE insert_libera_acesso(p_cpfuser       cert_liberacao_acesso.num_cpf%TYPE,
                                 p_userinc       cert_liberacao_acesso.num_user_inclusao%TYPE,
@@ -44,7 +49,7 @@ create or replace package body PCG_LIBERA_ACESSO_CERTDIG is
   END;
   
   
- PROCEDURE get_usuario( P_CPFUSER PROFISSIONAL.CPF_PROFISSIONAL%TYPE,
+ PROCEDURE get_usuario_by_cpf( P_CPFUSER PROFISSIONAL.CPF_PROFISSIONAL%TYPE,
                         P_RETORNO OUT SYS_REFCURSOR ) IS        
  BEGIN               
        
@@ -60,7 +65,7 @@ create or replace package body PCG_LIBERA_ACESSO_CERTDIG is
             WHERE 1 = 1
               AND u.num_documento = P_CPFUSER;  
    
- END GET_USUARIO;
+ END get_usuario_by_cpf;
  
  PROCEDURE get_usuario_by_name(p_nomuser VARCHAR2,
                                P_RETORNO OUT SYS_REFCURSOR ) IS
@@ -74,7 +79,7 @@ create or replace package body PCG_LIBERA_ACESSO_CERTDIG is
          u.num_documento,
          u.idf_tipo_documento
     FROM usuario u
-    WHERE u.nom_usuario LIKE UPPER('%'||p_nomuser||'%');
+    WHERE u.nom_usuario||' '||u.sbn_usuario LIKE UPPER('%'||p_nomuser||'%');
  END get_usuario_by_name;
  
  
@@ -144,6 +149,67 @@ BEGIN
          WHERE 1 = 1
          AND cla.seq_cert_liberacao_acesso = P_SEQUSER;      
 END;
+
+PROCEDURE get_cert_criticas_ocorrencia(  P_DATA_INICIAL IN VARCHAR2,
+                                         P_DATA_FINAL IN VARCHAR2,
+                                         P_RETORNO OUT SYS_REFCURSOR) IS
+  BEGIN
+    
+        IF P_DATA_INICIAL IS NULL OR P_DATA_FINAL IS NULL THEN
+            OPEN P_RETORNO FOR
+               SELECT *
+                    FROM (SELECT COUNT(*) QTD,
+                                 MAX(C.DTA_INCLUSAO) ULTIMA_INCLUSAO,
+                                 C.NUM_CPF,
+                                 U.NOM_USUARIO || ' ' || U.SBN_USUARIO NOME_USUARIO,
+                                 DECODE(C.IDF_JUSTIFICATIVA,
+                                        '1',
+                                        'PROBLEMAS COM O CARTÃO',
+                                        'PROBLEMAS TECNICOS') ULTIMA_OCORRENCIA,
+                                 C.DSC_JUSTIFICATIVA
+                            FROM CERT_LIBERACAO_ACESSO C, USUARIO U
+                           WHERE U.NUM_DOCUMENTO = C.NUM_CPF
+                             AND U.IDF_TIPO_DOCUMENTO = '1'
+                             AND c.dta_inclusao > add_months(SYSDATE, -1) -- Incluidos nos ultimos 30 dias.                        
+                           GROUP BY C.NUM_CPF,
+                                    U.NOM_USUARIO || ' ' || U.SBN_USUARIO,
+                                    DECODE(C.IDF_JUSTIFICATIVA,
+                                           '1',
+                                           'PROBLEMAS COM O CARTÃO',
+                                           'PROBLEMAS TECNICOS'),
+                                    C.DSC_JUSTIFICATIVA)
+                   WHERE QTD > 1
+                        ORDER BY ULTIMA_INCLUSAO DESC;
+          ELSE
+              OPEN P_RETORNO FOR
+                SELECT *
+                    FROM (SELECT COUNT(*) QTD,
+                                 MAX(C.DTA_INCLUSAO) ULTIMA_INCLUSAO,
+                                 C.NUM_CPF,
+                                 U.NOM_USUARIO || ' ' || U.SBN_USUARIO NOME_USUARIO,
+                                 DECODE(C.IDF_JUSTIFICATIVA,
+                                        '1',
+                                        'PROBLEMAS COM O CARTÃO',
+                                        'PROBLEMAS TECNICOS') ULTIMA_OCORRENCIA,
+                                 C.DSC_JUSTIFICATIVA
+                            FROM CERT_LIBERACAO_ACESSO C, USUARIO U
+                           WHERE U.NUM_DOCUMENTO = C.NUM_CPF
+                             AND U.IDF_TIPO_DOCUMENTO = '1'
+                             
+                             AND trunc(C.DTA_INCLUSAO) 
+                             BETWEEN  to_date(P_DATA_INICIAL, 'DD/MM/YYYY') AND to_date(P_DATA_FINAL, 'DD/MM/YYYY')                                                     
+                           GROUP BY C.NUM_CPF,
+                                    U.NOM_USUARIO || ' ' || U.SBN_USUARIO,
+                                    DECODE(C.IDF_JUSTIFICATIVA,
+                                           '1',
+                                           'PROBLEMAS COM O CARTÃO',
+                                           'PROBLEMAS TECNICOS'),
+                                    C.DSC_JUSTIFICATIVA)
+                   WHERE QTD > 1
+                        ORDER BY ULTIMA_INCLUSAO DESC;
+           END IF; 
+              
+  END get_cert_criticas_ocorrencia;
  
  PROCEDURE update_libera_acesso(P_SEQUSER  cert_liberacao_acesso.seq_cert_liberacao_acesso%TYPE,
                                     P_DATALIMITE cert_liberacao_acesso.dta_limite%TYPE) IS 
@@ -161,6 +227,19 @@ EXCEPTION
         ROLLBACK;
        
  END update_libera_acesso;
+ 
+ 
+ PROCEDURE delete_liberacao_acesso(P_SEQUSER  cert_liberacao_acesso.seq_cert_liberacao_acesso%TYPE) IS
+   BEGIN
+     DELETE FROM cert_liberacao_acesso cla
+     WHERE cla.seq_cert_liberacao_acesso = P_SEQUSER;     
+     COMMIT;   
+      
+EXCEPTION 
+     WHEN OTHERS THEN
+        dbms_output.put_line(Sqlcode||' - '||Sqlerrm);       
+        ROLLBACK;
+ END delete_liberacao_acesso;
  
  
  PROCEDURE insert_libera_acesso(p_cpfuser       cert_liberacao_acesso.num_cpf%TYPE,
@@ -189,6 +268,8 @@ EXCEPTION
      dbms_output.put_line(Sqlcode||' - '||Sqlerrm);
      ROLLBACK;    
 END insert_libera_acesso;
+
+
   
 END PCG_LIBERA_ACESSO_CERTDIG;
 /

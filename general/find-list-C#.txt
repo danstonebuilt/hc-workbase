@@ -1,0 +1,3 @@
+ar localseqLacreRepEquipamento =
+                    list.Find(item => item.BemPatrimonial.DscComplementar.Contains(ddlTesteLimpeza.SelectedValue)).
+                        SeqLacreRepositorioEquipamento;
