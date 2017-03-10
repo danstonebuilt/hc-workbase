@@ -2,10 +2,12 @@ CIA-A
 2986
 CIA-B
 5986
+CIA-C
+5423
 ------
 Marcao
 Adriano
-2274/2245
+2274/2275
 
 --------------
 Sara(Recepicao)
@@ -21,6 +23,11 @@ Diego
 Eu
 5423
 --------------
+Mateus
+Minto
+Muzel
+2118
+--------------
 Somera
 Carlos
 Karina
@@ -30,6 +37,7 @@ Jhony
 Favero
 Junior
 Camila
+Tonetto
 5002
 --------------
 Bisanha
@@ -41,3 +49,14 @@ ROSANGELA(DIRETORA PRONTUARIO)
 2337
 CLAUDIA(ARQUIVOS)
 2360
+---------------
+CLINICA CIVIL
+PATRICIA - 2606
+
+VACINA
+2841 - Adriana
+2335 - Fatima
+
+
+
+

@@ -1,0 +1,10 @@
+if (cbDtaAlterada.Checked)
+            {
+                txtDtaAlterada.Attributes.Remove("disabled");
+                btDtaAlterada.Attributes.Remove("style");
+            }
+            else
+            {
+                txtDtaAlterada.Attributes.Add("disabled", "disabled");
+                btDtaAlterada.Attributes.Add("style", "visibility:hidden");
+            }

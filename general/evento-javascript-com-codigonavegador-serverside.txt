@@ -1,0 +1,6 @@
+$('#txtCodigoPaciente').keyup(function (e) {
+                if (e.keyCode == 13) {                  
+                    __doPostBack('ctl00$ctl00$cpConteudoExibicao$cpConteudo$btnPesquisar', '');
+
+                }
+            });
