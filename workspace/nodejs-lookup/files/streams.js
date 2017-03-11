@@ -5,9 +5,9 @@ var server = http.createServer(function(req, res) {
 
    console.log(`Request made: ${req.url}`);
 
-   res.writeHead(200, {'Content-Type': 'text/plain'});
+   res.writeHead(200, {'Content-Type': 'text/html'});
 
-   var myStream = fs.createReadStream('any.txt', 'utf8');
+   var myStream = fs.createReadStream('index.html', 'utf8');
    myStream.pipe(res);
 });
 
