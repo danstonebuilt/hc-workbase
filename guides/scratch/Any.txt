@@ -1,1 +1,0 @@
-CIA_EA --- DBType=3;Connect=Provider=OraOLEDB.Oracle.1;Password=EACIAHC;Persist Security Info=True;User ID=CIA_EA;Data Source=VEGA;LazyLoad=1;

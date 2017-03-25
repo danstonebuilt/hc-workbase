@@ -1,3 +1,0 @@
-clone https://github.com/danstonebuilt/hc-workbase.git
-
-“taskkill /PID NUMERO_PROCESSO /F

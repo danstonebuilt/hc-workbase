@@ -1,3 +1,9 @@
+(modeo buffer - ESC)
+copiar textos: y
+colar textos: p
+recortar textos: d
+deletar textos em seleção: dw
+
 Comandos para localização de texto:
 /palavra - Busca pela palavra ou caractere em todo o texto;
 ?palavra - Move o cursor para a ocorrência anterior da palavra;
