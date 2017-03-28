@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var app = express();
 
 /*Setups*/
-app.listen(5000, function() {
+app.listen(5000, () => {
     console.log('Server is ON :)');
 });
 

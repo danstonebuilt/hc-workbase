@@ -1,75 +1,36 @@
-var express = require('express');
-var router = express.Router();
-var User = require('../models/user');
+const express = require('express');
+const router = express.Router();
+const User = require('../models/user');
 
-router.get('/', function(request, response)
-{
+router.get('/', (request, response) => {
      response.send('Welcome to my site!');
 });
 
 
-router.get('/users', function(request, response) {
-    /*
-    userModel.find({}, function(err, user) {
-      if(!err)
-          response.json(user);
-      else
-         response.json({err: 'Não foi possivel retornar o usuário'});
-    });
-    */
+router.get('/users', (request, response) => {
+
 });
 
-router.get('/users/:id', function(request, response) {
+router.get('/users/:id', (request, response) => {
 
-    var id = request.params.id;
-   /*
-     userModel.findById(id, function(err, user) {
-       if(!err)
-           response.json(user);
-       else
-          response.json({err: 'Não foi possivel encontrar o usuário'});
-     });
-     */
+    let id = request.params.id;
 });
 
-router.post('/users', function(request, response) {
-    /*
-     User.create(request.body).then(function(err, user)
-     {
-           if(!err)
-               response.json(user);
-           else
-              response.json({err: 'Não foi possivel salvar o usuário'});
-      });
+router.post('/users', (request, response) => {
 
-      */
-      User.create(request.body).then(function(users) {
+      User.create(request.body).then(users => {
            response.send(users);
       });
 
 });
 
-router.put('/users/:name', function(request, response) {
+router.put('/users/:name', (request, response) => {
 
      response.send(`Put requested, data updated: ${request.params.name}`);
 });
 
-router.delete('/users/:id', function(request, response)
-{
-    var id = request.params.id;
-     /*
-     userModel.findById(id, function(err, user)
-     {
-         if(!err)
-         {
-             user.remove(function(err)
-             {
-                  if(!err)
-                      response.json({res: 'Usuário excluido com sucesso!'});
-             });
-         }
-     });
-     */
+router.delete('/users/:id', (request, response) => {
+    let id = request.params.id;
 });
 
 
