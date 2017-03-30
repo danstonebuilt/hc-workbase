@@ -18,4 +18,6 @@ app.use(body_parser.urlencoded({
     extended: true
 }));
 
+app.set('view engine', 'ejs');
+
 app.use('/api', require('./routes/api'));
