@@ -1,0 +1,1 @@
+str.Append(string.Format("TO_DATE('{0}','dd/MM/yyyy HH24:MI:SS'), ", tecidoEnviado.DataHoraEnvio));

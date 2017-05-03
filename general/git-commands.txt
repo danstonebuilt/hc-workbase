@@ -1,3 +1,21 @@
 clone https://github.com/danstonebuilt/hc-workbase.git
 
-“taskkill /PID NUMERO_PROCESSO /F
+#Create a repository(Controling version)
+ git init
+ ->#Your files has been not versioned yet, but waiting for adding in control version
+  git add name_of_file_including_extension
+
+#You need adding all your files into the directory
+ git add .
+
+# See status of your project
+ git status
+
+# Returning stage before adding
+ git reset HEAD name_of_file
+
+# Commit
+ git commit -m "Message of commit"
+
+# Add and Commit at once
+ git commit -a -m "Message of commit"
