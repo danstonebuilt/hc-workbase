@@ -1,0 +1,8 @@
+ public static string GetDataJuliana(DateTime dateTime)
+        {
+            var anoPars = dateTime.Year.ToString().Substring(1, 3);
+            var diaJul =  string.Format("{0:000}", new JulianCalendar().GetDayOfYear(dateTime));
+            var horaPars = string.Format("{0:00}{1}", dateTime.Hour, dateTime.Minute);
+
+            return anoPars + diaJul + horaPars;
+        }
