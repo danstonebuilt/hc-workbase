@@ -19,3 +19,6 @@ clone https://github.com/danstonebuilt/hc-workbase.git
 
 # Add and Commit at once
  git commit -a -m "Message of commit"
+
+Verificando o histórico de commits:
+git log
