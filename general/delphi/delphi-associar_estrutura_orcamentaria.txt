@@ -1,7 +1,0 @@
-# Sistema Gestao
- - Cadastros
-  ->Orcamento
-    ->Estrutura Orcamentaria
-   
-   - Selecionar Instituicao
-   - Selecionar Estrutura (Associar com usuarios, na aba ao lado).

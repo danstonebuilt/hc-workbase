@@ -1,9 +1,0 @@
-declare
-ch char(1) := '*';
-v_string varchar(8);
-begin
-  for x in 1..8 loop
-       v_string := v_string||ch;
-       dbms_output.put_line(v_string);      
-  end loop;
-end;

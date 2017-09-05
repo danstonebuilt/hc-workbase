@@ -1,2 +1,0 @@
-SELECT 'insert into usuario_tipo_patrimonio values(6530, '||utp.cod_tipo_patrimonio||');' FROM usuario_tipo_patrimonio utp
-WHERE utp.num_user_banco = 1331;

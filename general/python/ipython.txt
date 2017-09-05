@@ -1,9 +1,0 @@
-#Make sure installing python > v3
-
-#install ipython
- pip install ipython[notebook]
-
-#Init ipython
- ipython|jupyter notebook
-
-
