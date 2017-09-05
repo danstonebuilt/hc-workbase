@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Base file of HTML</title>  
+     
+    <style>
+        .button-style {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="form-horizontal">
+        <div class="form-group">            
+            <label class="control-label col-sm-2" for="common-text">Common text</label> 
+            <div class="col-sm-3">
+                <input type="text" class="form-control" id="common-text" placeholder="Type some text here">
+            </div>            
+        </div>    
+    
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="reply">Reply</label>
+            <div class="col-sm-3">
+                <input type="text"  class="form-control" id="reply" placeholder="Type your reply">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button class="btn btn-default">Press</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <link type="text/css" rel="stylesheet" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
+    <script type="text/javascript" src="lib/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="lib/jquery/jquery-2.2.0.min.js"></script>
+    <script src="lib/notify/notify.js"></script>
+    
+    
+    <script>
+        $(function() {
+            
+            
+            var contato = new Contato();
+            
+            contato.setNome("Daniel Stonebuilt");
+            contato.setIdade(31);
+            contato.setEmail("dnstonebuilt@gmail.com");
+            contato.setTelefone("(16)9 92563851");
+            
+            //contato.printData();
+            
+            var json = JSON.stringify({Nome: contato.getNome(), Email: contato.getEmail()});
+            
+            alert(json);
+            
+        });
+        
+        function Contato()
+        {
+            var nome;           
+            var email;
+            var telefone;
+            var idade;
+            
+            this.setNome = function(_nome) { this.nome = _nome; }
+            this.setIdade = function(_idade) { this.idade = _idade; }
+            this.setEmail = function(_email) { this.email = _email; }
+            this.setTelefone = function(_telefone) { this.telefone = _telefone; }
+            
+            this.getNome = function() {return this.nome;}
+            this.getIdade = function() { return this.idade; }
+            this.getEmail = function() {return this.email;}
+            this.getTelefone = function() {return this.telefone;}
+            
+            this.printData = function() {
+                 alert("Nome: " + this.nome + "\nEmail: " + this.email + "\nTelefone: " + this.telefone);
+            }            
+            
+        }
+    </script>
+</body>
+</html>

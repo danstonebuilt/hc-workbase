@@ -1,0 +1,1 @@
+;C:\cmder\;C:\cmder\bin\;C:\%ProgramFiles%\MongoDB\Server\3.4\bin\;

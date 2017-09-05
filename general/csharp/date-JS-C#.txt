@@ -1,0 +1,8 @@
+/*Client*/
+var utc = new Date().toJSON().slice(0,10);
+document.write(utc);
+
+/*Server*/
+txtDataFinal.Text = DateTime.Now.ToShortDateString();
+
+

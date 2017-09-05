@@ -1,0 +1,2 @@
+$('a')
+	.css({ color: 'red', display: 'block' });

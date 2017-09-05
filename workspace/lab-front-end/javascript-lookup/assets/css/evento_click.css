@@ -1,0 +1,38 @@
+body {
+	font-size: 20px;
+}
+
+.common-button
+{	
+	text-align: center;
+	padding: 20px;	
+	width: 460px;
+	color: #FFF;
+}
+
+
+.div_click
+{	
+	margin: 0 auto;
+	background: #3A79A6;	
+}
+
+.p_click
+{	
+	margin: 0 auto;
+	background: #D4AB53;
+	margin-top: 25px;
+}
+
+
+.common-button-clicked
+{
+	text-align: center;
+	padding: 20px;	
+	width: 460px;	
+	background: #D3D3D3;
+	color: #00BFFF;
+}
+
+
+

@@ -1,0 +1,16 @@
+private
+    _v_responsavel: string;
+     _v_atribuicao_funcional: string;
+     _v_referencia: string;
+     _v_email: string;
+     _v_role_relassistautorizador: Boolean; 
+
+public
+
+
+     property Responsavel: string read _v_responsavel write _v_responsavel;
+     property AtribuicaoFuncional: string read _v_atribuicao_funcional write _v_atribuicao_funcional;
+     property Referencia: string read _v_referencia write _v_referencia;
+     property Email: string read _v_email write _v_email;
+
+     property RoleRelAssAutorizador: Boolean read _v_role_relassistautorizador write _v_role_relassistautorizador;

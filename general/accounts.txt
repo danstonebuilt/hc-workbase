@@ -1,0 +1,37 @@
+EMAIL
+daanselmo@hcrp.fmrp.usp.br
+pass: hcrp6373
+pass google: GOO132104ALL
+Nome da conta: daanselmo	
+Servidor pop3: hcrp.fmrp.usp.br
+Servidor SMTP  hcrp.fmrp.usp.br
+
+CONJUNTO SISTEMAS HC
+login: DAANSELMO
+  pss: hcf132104AL
+
+ORACLE DEV
+login: generico
+pass: pkcdgvsd
+
+ORACLE HML
+Login: daanselmo
+pass: hcrp1234
+
+CHANNEL
+Login: daanselmo
+ Pass: #cha132104ALL$
+ 
+EA
+Login: daanselmo
+pass:  ea132104ALL
+
+SVN
+Login: DAANSELMO
+pass: svn132104ALL
+
+WIFI
+hcrp#$13
+
+TELEFONE
+3602-2986

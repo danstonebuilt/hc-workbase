@@ -1,0 +1,26 @@
+#div_action
+{
+	width: 350px;
+	background-color: #6A5ACD;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+Fieldset
+{
+	width: 400px;
+}
+
+label
+{
+	display: block;
+	margin: 5px;
+}
+
+
+.button
+{
+	width: 100px;
+	padding: 10px;
+
+}

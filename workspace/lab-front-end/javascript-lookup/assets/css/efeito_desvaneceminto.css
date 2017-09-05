@@ -1,0 +1,19 @@
+div
+{
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	margin: 10px auto;	
+}
+
+#div_action
+{
+	background-color: #FF00FF;
+}
+
+.button
+{
+	width: 100px;
+	margin: 0 auto;
+	background-color: #ccc;
+}

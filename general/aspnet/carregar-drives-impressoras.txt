@@ -1,0 +1,6 @@
+ private void CarregarCombo()
+        {
+            this.ddlStatus.DataSource = System.Drawing.Printing.PrinterSettings.InstalledPrinters;
+            this.ddlStatus.DataBind();
+            this.ddlStatus.SelectedIndex = 0;
+        }

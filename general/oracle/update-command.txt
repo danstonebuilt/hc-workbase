@@ -1,0 +1,10 @@
+UPDATE "nome_tabela"
+SET "coluna 1" = [novo valor]
+WHERE "condicao"
+
+
+
+Ex:
+UPDATE programa P
+    SET P.nom_exibicao_programa = 'GERENCIAMENTO PRONTUÁRIO ELETRÔNICO'
+    WHERE P.COD_PROGRAMA = 915;

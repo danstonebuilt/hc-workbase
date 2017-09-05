@@ -1,0 +1,47 @@
+ //Pagina Pai
+
+protected void Page_PreRender(object sender, EventArgs e)
+        {
+
+            if (Session["MensagemFormulario"] != null && !string.IsNullOrEmpty(Session["MensagemFormulario"].ToString()))
+            {
+                Notificacao(msg: Session["MensagemFormulario"].ToString(), info: Info.Success);
+                Session.Remove("MensagemFormulario");
+            }
+            if (Session["MenssagemErroFormulario"] != null && !string.IsNullOrEmpty(Session["MenssagemErroFormulario"].ToString()))
+            {
+                Notificacao(msg: Session["MenssagemErroFormulario"].ToString(), info: Info.Error);
+                Session.Remove("MenssagemErroFormulario");
+            }
+            /*[GDTI-2473] Daniel Anselmo 11/11/2016*/
+            if (Session["MsgSalve"] != null )
+            {
+                Notificacao(msg: Session["MsgSalve"].ToString(), info: Info.Success);
+                Session.Remove("MsgSalve");
+            }
+            if (Session["MsgSalveErro"] != null)
+            {
+                Notificacao(msg: Session["MsgSalveErro"].ToString(), info: Info.Error);
+                Session.Remove("MsgSalveErro");
+            }
+            //--------------------------------------------
+        }
+
+//User control
+//[GDTI-2473] Daniel Anselmo
+        protected void BtAlterDatSolicitClick(object sender, EventArgs e)
+        {
+         
+
+            try
+            {
+                new BLL.SolicitarTecido().AtualizarDataSolicitacao( Convert.ToInt64(hdnSeqSolicitacaoTecido.Value ),
+                                                                    Convert.ToDateTime(this.txtDtaAlterada.Text));
+                Session["MsgSalve"] = "Salvo com sucesso"; //Processa no evento pre render da página pai...
+
+            }
+            catch (Exception ex)
+            {
+                Session["MsgSalveErro"] = "Erro ao tentar gravar...";
+            }
+        }

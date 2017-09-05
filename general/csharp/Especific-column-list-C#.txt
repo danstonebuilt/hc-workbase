@@ -1,0 +1,1 @@
+filteredLessons.Select(l => l.lessonId).ToList();

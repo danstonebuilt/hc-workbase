@@ -1,0 +1,3 @@
+Login: danielanselmo
+password: sucesso2017
+http://sitehcrp.azurewebsites.net/wp-admin/edit.php?post_type=page

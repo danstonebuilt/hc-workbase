@@ -1,0 +1,11 @@
+function user_exists (p_user_id users.user_id%type) return boolean
+is
+  l_count integer;
+begin
+  select count(*)
+  into   l_count
+  from   users
+  where  user_id = p_user_id;
+
+  return (l_count > 0);
+end;

@@ -1,0 +1,22 @@
+<script type="text/javascript">
+    $(function() {
+        $('#btDtaAlterada').hide();
+    });
+
+    
+
+    var cbDtaAlterada = $('#<%=cbDtaAlterada.ClientID %>');
+    var txtDtaAlterada = $('#<%=txtDtaAlterada.ClientID %>');
+    var calendario = $('#btDtaAlterada');
+   
+        cbDtaAlterada.change(function ()
+        {
+            if (cbDtaAlterada.is(':checked')) {
+                txtDtaAlterada.removeAttr('disabled');
+                calendario.toggle(true);
+            } else {
+                txtDtaAlterada.attr("disabled", "disabled");
+                calendario.toggle(false); 
+            }
+        });
+</script>

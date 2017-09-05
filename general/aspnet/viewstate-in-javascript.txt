@@ -1,0 +1,14 @@
+//Client
+<input type="hidden"  id="myhiddenField" runat="server" value="" />
+
+<script type="text/javascript">  
+         function test() 
+              {
+                var name = document.getElementById('myhiddenField').value;
+                alert(name)
+             }
+ </script>
+
+
+//server
+myhiddenField.Value= ViewState["name"].ToString();// or assign any value you want

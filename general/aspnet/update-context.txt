@@ -1,0 +1,56 @@
+public void AvaliarSolicitacao(Model.SolicitarTecido solicitacaoTecido)
+        {
+            try
+            {
+                using (Contexto ctx = new Contexto())
+                {
+                    StringBuilder str = new StringBuilder();
+                    str.Append("UPDATE SOLICITACAO_TECIDO ST SET ");
+                    str.Append("ST.CTU_MSG_RESP_SOLICITACAO = :ObservacaoAoSolicitante , ST.NUM_USER_AVALIACAO = FC_NUM_USER_BANCO , ");
+                    str.Append(string.Format("ST.IDF_STATUS = '{0}' ", (int)solicitacaoTecido.Situacao));
+                    str.Append(string.Format("WHERE ST.SEQ_SOLICITACAO_TECIDO = {0} ", solicitacaoTecido.IdSolicitacao));
+
+                    var comandoUpdate = new QueryCommandConfig(str.ToString());
+                    comandoUpdate.Params["ObservacaoAoSolicitante"] = solicitacaoTecido.ObservacaoAoSolicitante;
+                    ctx.Open();
+                    ctx.ExecuteNonQuery(comandoUpdate);
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+//-------------------------------------------------------------------------------------
+public void AtualizarDadosDeTesteDoEquipamento( Int64 seqLacreRepositorioEquipamento,
+                                                        DateTime dataDoTeste,
+                                                        string justificativa,
+                                                        int numUserTeste )
+        {
+            using (var ctx = new Contexto())
+            {
+                   
+                ctx.Open();
+
+                var comandoDataValidadeLote = new UpdateCommandConfig("LACRE_REPOSIT_EQUIPAMENTO");
+
+                if (!string.IsNullOrEmpty(justificativa))
+                {
+                    comandoDataValidadeLote.FilterParams["SEQ_LACRE_REPOSIT_EQUIP"] = seqLacreRepositorioEquipamento;
+
+                    comandoDataValidadeLote.Params["DTA_TESTE"] = dataDoTeste;
+                    comandoDataValidadeLote.Params["DSC_JUSTIFICATIVA"] = justificativa;
+                    comandoDataValidadeLote.Params["NUM_USER_RESP_TESTE"] = numUserTeste;
+                }
+                else
+                {
+                    comandoDataValidadeLote.FilterParams["SEQ_LACRE_REPOSIT_EQUIP"] = seqLacreRepositorioEquipamento;
+                    comandoDataValidadeLote.Params["DTA_TESTE"] = dataDoTeste;
+                    comandoDataValidadeLote.Params["NUM_USER_RESP_TESTE"] = numUserTeste;
+                }
+
+                    
+                ctx.ExecuteUpdate(comandoDataValidadeLote);
+            }
+        }

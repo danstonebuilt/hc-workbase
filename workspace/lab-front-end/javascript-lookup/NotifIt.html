@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Base file of HTML</title>
+	<script type="text/javascript" src="lib/jquery-2.2.0.min.js"></script>
+    
+  
+    <script type="text/javascript" src="lib/NotifIt/notifIt/js/notifIt.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/NotifIt/notifIt/css/notifIt.css">
+   
+   
+</head>
+<body>
+    
+    <form id="myform">
+     <p><input type="text" placeholder="Type something" id="ipt" name="ipt" pattern="^[A-Z]{4}\d{5}$"></p> 
+     <p><input type="text" placeholder="Type something" id="ipt02" name="ipt02" pattern="^[A-Z]{4}\d{5}$"></p>   
+       
+    </form>
+    
+     <button type="submit">Button</button>
+    
+    <a class="success" title="" href="">Success</a>
+    
+
+    <script>
+        $(function() {
+            
+            $('#ipt').on('keypress', function(evt) {
+                
+                //var er = new RegExp(/^[A-Z]{4}\d{5}$/g, "");
+                
+            if (evt.which == '13')
+            {
+                var er = /^[A-Z]{4}\d{5}$/;
+                
+                if(er.test($(this).val()))
+                {                
+                      notif({
+                            msg: "Sucess!..",
+                            type: "warning",
+                            bgcolor: "green",
+                            color: "white",
+                            position: "center",
+                            opacity: 0.8
+                        });                   
+                    
+                }else {
+                     notif({
+                            msg: "Didnt worked..",
+                            type: "warning",
+                            bgcolor: "orange",
+                            color: "white",
+                            position: "center",
+                            opacity: 0.8
+                        });                       
+                }
+            }
+                (function(evt) {
+                    evt.preventDefault();
+                 });    
+                
+            });
+                   
+            $('button').on('click', function() {
+                
+                notif({
+                    msg: "Testing app..",
+                    type: "warning",
+                    color: "white",
+                    position: "center",
+                    opacity: 0.8
+                });
+            });
+        });      
+    </script>
+</body>
+</html>

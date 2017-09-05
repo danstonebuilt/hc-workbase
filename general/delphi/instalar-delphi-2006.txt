@@ -1,0 +1,3 @@
+- Instalar executavel na pasta "BDS_TUDO_JUNTO"
+- Instalar os 4 updates
+- Excutar Delphi.Distiller - ir na aba twek

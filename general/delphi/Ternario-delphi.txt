@@ -1,0 +1,2 @@
+SBtnImprimirTriagemServico.Visible := ((PageControl1.ActivePage = TabSheet5) or (PageControl1.ActivePage = TabSheet2)) else
+    SBtnImprimirTriagemServico.Visible := False;

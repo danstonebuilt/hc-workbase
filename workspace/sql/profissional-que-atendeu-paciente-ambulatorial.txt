@@ -1,0 +1,46 @@
+SELECT MLP.NOM_LOCAL UTILIDADE,
+                                AP.COD_PACIENTE,
+                                ML.COD_INSTITUTO,
+                                1 COD_TIPO_ATENDIMENTO,
+                                ( SELECT ta.nom_tipo_atendimento FROM tipo_atendimento_hc ta WHERE ta.cod_tipo_atendimento = 1) tipo_atendimento,
+                                AP.COD_ESPECIALIDADE_HC,
+                                TRUNC(AP.DTA_HOR_CONSULTA) DTA_REF,
+                                P.COD_PROFISSIONAL,
+                                P.NOM_PROFISSIONAL || ' ' || P.SBN_PROFISSIONAL PROFISSIONAL,
+                                P.NUM_DOC_PROFISSIONAL NUM_DOCUMENTO_PROFISSIONAL,
+                                PR.NOM_PROFISSAO PROFISSAO
+                          FROM AGENDA_PROCEDIMENTO_SUS      AP,
+                                MAPEAMENTO_LOCAL            ML,
+                                UNIDADE_AGENDAMENTO         UA,
+                                SITUACAO_POS_ATENDIMENTO    SPA,
+                                MAPEAMENTO_LOCAL            MLP,
+                                AGENDA_PROC_SUS_ATENDIMENTO APA,
+                                PROFISSIONAL                P,
+                                PROFISSAO                   PR
+                         WHERE AP.NUM_SEQ_LOCAL = ML.NUM_SEQ_LOCAL
+                           AND AP.NUM_SEQ_LOCAL = UA.NUM_SEQ_LOCAL
+                           AND AP.COD_SITUACAO_POS_ATEND =  SPA.COD_SITUACAO_POS_ATEND 
+                           AND AP.NUM_AGENDA_PROCEDIMENTO =  APA.NUM_AGENDA_PROCEDIMENTO
+                           AND APA.COD_PROF_ATENDIMENTO = P.COD_PROFISSIONAL
+                           AND P.NUM_PROFISSAO = PR.NUM_PROFISSAO
+                           AND SPA.IDF_CONSULTA_REALIZADA = 'S'
+                           AND SPA.COD_SITUACAO_POS_ATEND <> 18
+                           AND UA.COD_TIPO_UNIDADE_AGENDAMENTO = 1 -- UNIDADES DE CONSULTA      
+                              
+                           AND trunc(AP.DTA_HOR_CONSULTA) = to_date('22/07/2015', 'dd/mm/YYYY') --PARAMETRO 1
+                              
+                           AND ML.COD_INSTITUTO IN (1)
+                           AND ML.NUM_SEQ_LOCAL_PAI = MLP.NUM_SEQ_LOCAL
+                              
+                           AND EXISTS
+                         (SELECT EIA.COD_ESPECIALIDADE_HC
+                                  FROM ESPEC_INSTITUTO_ATENDIMENTO EIA
+                                 WHERE EIA.COD_INSTITUTO = ML.COD_INSTITUTO
+                                   AND EIA.COD_TIPO_ATENDIMENTO = 1
+                                   AND EIA.COD_ESPECIALIDADE_HC =
+                                       AP.COD_ESPECIALIDADE_HC
+                                   AND EIA.DTA_HOR_IMPLANTACAO_EAC >
+                                       TO_DATE('01/05/2013', 'DD/MM/YYYY')
+                                   AND EIA.DTA_HOR_IMPLANTACAO_EAC <  AP.DTA_HOR_CONSULTA)
+                        
+                        
