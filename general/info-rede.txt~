@@ -1,0 +1,19 @@
+Adaptador Ethernet Conexão local:
+
+   Sufixo DNS específico de conexão. . . . . . : hcrp.usp.br
+   Endereço IPv6 de link local . . . . . . . . : fe80::a5c9:39a5:f143:8df6%3
+   Endereço IPv4. . . . . . . .  . . . . . . . : 10.165.100.64
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.128
+   Gateway Padrão. . . . . . . . . . . . . . . : 10.165.100.5
+
+Adaptador de túnel isatap.hcrp.usp.br:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . : hcrp.usp.br
+
+Adaptador de túnel Teredo Tunneling Pseudo-Interface:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 . . . . . . . . . . : 2001:0:9d38:6ab8:287e:2981:7094:36de
+   Endereço IPv6 de link local . . . . . . . . : fe80::287e:2981:7094:36de%2
+   Gateway Padrão. . . . . . . . . . . . . . . : ::

@@ -1,0 +1,10 @@
+#Execute virtual env
+#Obs: Only from > Python3 version
+ python -m venv .directory_name
+
+#To let job easy it's interesting to set the local commands in a temporary variable
+ set varName=C:\workstation\hc-workbase\workspace\python\labwebpy\.labwebpy\Scripts
+ path=%PATH%;%varName%
+
+#Then
+ activate

@@ -1,0 +1,17 @@
+     public void MethodName(object obj)
+        {
+            using (var ctx = new Contexto())
+            {
+                ctx.Open();
+
+                try
+                {
+                    
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+            }
+            return null;
+        }

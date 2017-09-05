@@ -1,0 +1,7 @@
+#install a new project
+ django-admin startproject project_name .
+
+#Tip: set an easy access for manage command in a bat file
+#Create a manage.bat file at path: C:\workstation\hc-workbase\workspace\python\.labweb\Scripts
+#Then put in it this content:  @python "%VIRTUAL_ENV%\..\manage.py" %*
+#This way you can access the manage command of your project from any directory
