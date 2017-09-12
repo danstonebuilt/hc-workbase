@@ -1,0 +1,3 @@
+SELECT * FROM all_source WHERE 
+
+upper(text) LIKE UPPER('%materiais%');

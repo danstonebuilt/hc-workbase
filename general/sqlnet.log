@@ -1,0 +1,38 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=HML.hcrp.usp.br)(CID=(PROGRAM=C:\Program?Files??x86?\PLSQL?Developer?12\plsqldev.exe)(HOST=HC113206)(USER=UHC113206)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.165.1.21)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 06-SEP-2017 09:42:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=HML.hcrp.usp.br)(CID=(PROGRAM=C:\Program?Files??x86?\PLSQL?Developer?12\plsqldev.exe)(HOST=HC113206)(USER=UHC113206)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.165.1.21)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 06-SEP-2017 09:42:22
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
