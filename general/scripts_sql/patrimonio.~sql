@@ -64,22 +64,3 @@ SELECT NUM_BEM,
 
 SELECT * FROM centro_custo cc
 WHERE cc.nom_cencusto LIKE 'ENGENHARIA%';
-
---*********************************************
-SELECT * FROM bem_patrimonial bp
-WHERE 1 = 1
---AND bp.num_incorporacao = 150467;
-AND bp.num_bem IN (189926, 189927, 189928);
-
-SELECT * FROM incorporacao i
-WHERE 1 = 1
---AND i.seq_nota_fiscal = 569066;
--- AND i.num_incorporacao IN (150467,150467,150468);
- AND i.num_incorporacao = 150468;
- 
- select * from ESTOQUE.NOTA_FISCAL t
-where t.seq_nota_fiscal = 2959;
- 
- select * from ESTOQUE.ITEM_NOTA_FISCAL t
-where t.seq_nota_fiscal = 569066;
---and   t.cod_material = 36014011;

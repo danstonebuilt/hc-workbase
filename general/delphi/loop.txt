@@ -1,0 +1,14 @@
+with qry_aux do
+     begin
+         SQL.Clear;
+         SQL.Text := l_sql;
+         Open;
+
+         First;
+         while not EOF do
+         begin
+             l_itens :=  FieldByName('NUM_SEQ_AGRUPAMENTO').AsString;
+             l_itens := ' '+ l_itens;
+             Next;
+         end;
+     end;

@@ -1,0 +1,11 @@
+/*SM*/
+SELECT
+  * FROM solicitacao_materiais sm
+  WHERE sm.ano_solicitacao = 2017
+  AND sm.idf_tipo_sm IN (5,6)
+  ORDER BY 1 DESC;
+  
+/*Itens solicitação*/
+select * from ESTOQUE.ITENS_SOLICITACAO t
+where t.num_solicitacao = 7646
+and   t.ano_solicitacao = 2017;
