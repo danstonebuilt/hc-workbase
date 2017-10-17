@@ -1,0 +1,1 @@
+SELECT to_char(9582.5, 'FM999G999G990D90') FROM dual;

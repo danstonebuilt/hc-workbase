@@ -4,11 +4,19 @@ with qry_aux do
          SQL.Text := l_sql;
          Open;
 
+         l_itens := '';
+         l_count := 1;
          First;
-         while not EOF do
+         if qry_aux.RecordCount > 0 then
          begin
-             l_itens :=  FieldByName('NUM_SEQ_AGRUPAMENTO').AsString;
-             l_itens := ' '+ l_itens;
-             Next;
+            while not EOF do
+             begin
+                if l_count = qry_aux.RecordCount then
+                   l_itens :=  FieldByName('ITENS_FRACASSADOS').AsString + ' ' +l_itens
+                else
+                   l_itens := ', ' + FieldByName('ITENS_FRACASSADOS').AsString + ' ' +l_itens;
+                Next;
+             end;
          end;
+
      end;
