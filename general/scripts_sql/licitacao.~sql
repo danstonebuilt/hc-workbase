@@ -55,14 +55,17 @@ SELECT COUNT(*) qtd, pc.num_agrupamento
    HAVING COUNT(*) > 1
    ORDER BY qtd DESC;
    
---*****Pedido de compras agrupado por fornecedores 
-SELECT pfp.cod_fornecedor,      
+--*****Pedido de compras ganhadores agrupado por fornecedores 
+SELECT pfp.cod_fornecedor,
+       f.nom_fornecedor,      
        COUNT(pfp.num_pedido_compra) qtd_pedi_fornecedor      
-  FROM PRECO_FORNECEDOR_PEDIDO PFP     
+  FROM PRECO_FORNECEDOR_PEDIDO PFP 
+     JOIN fornecedor f
+       ON pfp.cod_fornecedor = f.cod_fornecedor    
  WHERE PFP.ANO_PEDIDO_COMPRA = 2017
    AND PFP.IDF_CLASSIFICACAO = '1'
    AND ROWNUM <= 500
-   GROUP BY pfp.cod_fornecedor;
+   GROUP BY pfp.cod_fornecedor, f.nom_fornecedor;
            
    SELECT  f.cod_fornecedor,
            f.nom_fornecedor,
@@ -70,7 +73,7 @@ SELECT pfp.cod_fornecedor,
          PRECO_FORNECEDOR_PEDIDO pfp
          JOIN fornecedor f
        ON pfp.cod_fornecedor = f.cod_fornecedor
-   WHERE pfp.cod_fornecedor = 65
+   WHERE pfp.cod_fornecedor = 1861
     AND PFP.ANO_PEDIDO_COMPRA = 2017
    AND PFP.IDF_CLASSIFICACAO = '1'
    AND ROWNUM <= 500 ;
@@ -173,12 +176,7 @@ SELECT A.NUM_AGRUPAMENTO,
    AND B.COD_MODALIDADE_LICITACAO = C.COD_MODALIDADE_LICITACAO
    AND b.num_documento = 3487;
  --*****************************
- 
- SELECT * FROM licitacao l
- WHERE 1 = 1
- AND l.num_documento = 4082
- AND l.ano_documento = 2017
- ORDER BY 1 DESC;
+
 --*******Exportar para DOE
  (SELECT AC.NUM_AGRUPAMENTO, ML.DSC_MODALIDADE_LICITACAO, 
                      L.NUM_LICITACAO||'/'||L.ANO_LICITACAO NUM_LICITACAO, 
@@ -273,25 +271,6 @@ SELECT A.NUM_AGRUPAMENTO,
                   AND PC.COD_SIAFISICO=SM.COD_SIAFISICO(+)     
                  AND SM.COD_UNIDADE_SIAFISICO=US.COD_UNIDADE_SIAFISICO(+);
                  --********************************
-               --
-                 --**********************************
-                 
-                 SELECT * 
-                       FROM pedido_compra pc
-                           -- JOIN preco_fornecedor_pedido pfp
-                              -- ON pfp.num_pedido_compra = pc.num_pedido_compra
-                           -- JOIN fornecedor f
-                           --    ON pfp.cod_fornecedor = f.cod_fornecedor
-                           --JOIN licitacao l
-                              --ON l.num_agrupamento = pc.num_agrupamento                            
-                 WHERE pc.num_agrupamento = 284592;
-                 
-               select t.* from 
-                     ESTOQUE.PRECO_FORNECEDOR_PEDIDO t
-                   --  JOIN material m
-                --     ON t.cod_material = m.cod_material
-                where t.num_pedido_compra = 3990
-               AND   t.ano_pedido_compra = 2017
-               AND t.idf_classificacao = 1;
-                 
+           
+              
                
