@@ -13,8 +13,7 @@ SELECT TRUNC(SUM(DECODE(SINLAN, '+', QTDHOR, '-', -QTDHOR, 0)) / 60) AS HORA,
   FROM R011LAN
  WHERE NUMCAD = 6373 --6010
    AND NUMEMP = 1
-   AND TIPCOL = 1
-   AND CODBHR = 10;
+   AND TIPCOL = 1;
    
    
    --pto saldo por dia
