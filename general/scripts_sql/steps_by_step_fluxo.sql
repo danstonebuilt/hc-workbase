@@ -1,5 +1,5 @@
 SELECT * FROM licitacao l
-WHERE l.num_documento = 8513
+WHERE l.num_documento = 9410
 AND l.ano_documento = 2017;
 
 /*Fornecedores ganhadores*/
@@ -8,6 +8,39 @@ SELECT pfp.* FROM preco_fornecedor_pedido PFP
                                         AND pfp.ano_pedido_compra = pc.ano_pedido_compra
                                         AND pfp.idf_classificacao = '1'
 WHERE pc.num_agrupamento = 290395;
+-----------------------------------
+
+SELECT pc.num_seq_agrupamento,pc.* FROM pedido_compra pc
+WHERE pc.num_agrupamento = 281802;
+-------------------------------------
+SELECT LISTAGG(PC.NUM_SEQ_AGRUPAMENTO,', ') WITHIN GROUP(ORDER BY PC.NUM_SEQ_AGRUPAMENTO) num_seq_agrupamento, 
+ f.nom_fornecedor 
+ FROM PRECO_FORNECEDOR_PEDIDO PFP 
+ JOIN PEDIDO_COMPRA PC 
+ ON PFP.NUM_PEDIDO_COMPRA = PC.NUM_PEDIDO_COMPRA 
+ AND PFP.ANO_PEDIDO_COMPRA = PC.ANO_PEDIDO_COMPRA  
+   JOIN fornecedor f   
+  ON pfp.cod_fornecedor = f.cod_fornecedor 
+ WHERE PC.NUM_AGRUPAMENTO = 291872
+  AND pfp.idf_classificacao = '1' 
+ GROUP BY PFP.COD_FORNECEDOR, F.NOM_FORNECEDOR 
+ORDER BY nom_fornecedor, num_seq_agrupamento DESC ;
+------------------------------------------
+
+SELECT PC.NUM_SEQ_AGRUPAMENTO,
+       pc.cod_material,     
+      f.nom_fornecedor 
+ FROM PRECO_FORNECEDOR_PEDIDO PFP 
+  JOIN PEDIDO_COMPRA PC 
+ ON PFP.NUM_PEDIDO_COMPRA = PC.NUM_PEDIDO_COMPRA 
+ AND PFP.ANO_PEDIDO_COMPRA = PC.ANO_PEDIDO_COMPRA  
+   JOIN fornecedor f   
+  ON pfp.cod_fornecedor = f.cod_fornecedor 
+ WHERE PC.NUM_AGRUPAMENTO = 281802
+  AND pfp.idf_classificacao = '1' 
+ --GROUP BY PFP.COD_FORNECEDOR, F.NOM_FORNECEDOR 
+ORDER BY nom_fornecedor DESC ;
+
 --
 SELECT PFP.*
   FROM PRECO_FORNECEDOR_PEDIDO PFP

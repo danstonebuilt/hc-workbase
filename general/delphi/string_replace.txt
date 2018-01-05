@@ -1,0 +1,1 @@
+str_temp := StringReplace(qrm_par1.Lines.Text, '<nome_super_intendente>', q_atr_funcionalNOM_RESPONSAVEL.AsString, [rfReplaceAll]);

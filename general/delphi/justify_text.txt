@@ -1,0 +1,1 @@
+str_temp := StringReplace(StringReplace(str_temp, #10, ' ', [rfReplaceAll]), #13, ' ', [rfReplaceAll]);//Justifica o texto

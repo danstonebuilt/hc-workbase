@@ -1,0 +1,1 @@
+Frm_Quadro_precos.e_valor.Text := FormatFloat('######,###,##0.00', (Round(l_val_total * 1000)) / 1000);
