@@ -1,0 +1,8 @@
+ANDRE REIS SOUSA (arsousa@hcrp.usp.br)
+PopupMenu1.Items[0].Visible := True;
+PopupMenu1.Items[1].Visible := True;
+PopupMenu1.Items[2].Visible := True;
+
+PopupMenu1.Items[3].Visible := False;
+PopupMenu1.Items[4].Visible := False;
+PopupMenu1.Items[5].Visible := False;

@@ -1,0 +1,1 @@
+raise Exception.Create('Não foi possível cancelar o Pedido de Compra');

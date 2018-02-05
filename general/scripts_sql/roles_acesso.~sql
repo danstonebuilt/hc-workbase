@@ -150,7 +150,7 @@ AND s.nom_sistema LIKE UPPER('SIH');
       
      /*Existencia de roles de banco*/ 
      SELECT * FROM dba_roles atp
-     WHERE atp.role LIKE '%CONSULTA_MATERIAL%';
+     WHERE atp.role = 'MEDICO';
 
 /*Roles de banco associada ao perfil*/     
 SELECT * FROM perfil_role_banco prb
@@ -158,10 +158,10 @@ SELECT * FROM perfil_role_banco prb
      AND prb.cod_role = 9193;
   --   AND prb.nom_role_banco = 'ROLE_ACESSO_QUALIS';
   
-  SELECT * FROM ROLE_TAB_PRIVS WHERE ROLE = 'ROLE_MATERIAL_PRONTO_USO';
+  SELECT * FROM ROLE_TAB_PRIVS WHERE ROLE = 'DADOS ESTATISTICOS';
   
   /*Ver objetos de banco associados a roles*/
-  SELECT * FROM DBA_TAB_PRIVS WHERE GRANTEE LIKE '%ROLE_CONSULTA_MATERIAIS%';
+  SELECT * FROM DBA_TAB_PRIVS WHERE GRANTEE = 'ROLE_DEPTO_AUTORIZA_OS';
      
       
 

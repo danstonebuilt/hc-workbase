@@ -1,0 +1,107 @@
+/*Autor: Barth/Daniel Anselmo - 19/01/2018
+Demanda: Incorporar Ata ao sistema de Contrato Faepa.
+*/
+CREATE OR REPLACE VIEW GENERICO.V_ITENS_CONTRATO_RP AS
+
+SELECT 
+       X."NUM_AUTORIZACAO_COMPRA",
+       X."NRO_ATA",
+       X."NUM_DOCUMENTO",
+       X."ANO_DOCUMENTO",
+       X."COD_ESPECIE",
+       X."COD_INSTITUICAO",
+       X."COD_FORNECEDOR",
+       X."COD_MATERIAL",
+       X."NOM_MATERIAL",
+       X."NUM_PEDIDO_COMPRA",
+       X."ANO_PEDIDO_COMPRA",
+       X."SGL_TIPO_AUTORIZACAO",
+       X."PC_ATUAL",
+       X."INICIO",
+       X."TERMINO",
+       X."NOTIFICACAO",
+       X."MESES_NOTIFICACAO",
+       X."IDF_AUTORIZACAO_REATIVADA",
+       X."FORNECEDOR",
+       X."PC_EMITIDO",
+       X."QTD_MAT_PERIODO",
+       X."VLR_MATERIAL",
+       X."VLR_FATURADO",
+       X."QTD_FATURADA",
+       ROUND( (X.QTD_FATURADA / X.QTD_MAT_PERIODO) * 100,  2) PCT_QTD_UTILIZADA,
+       ROUND( (X.VLR_FATURADO) / (X.VLR_MATERIAL * X.QTD_MAT_PERIODO) * 100, 2) PCT_VLR_UTILIZADA
+   FROM (SELECT ACM.NUM_AUTORIZACAO_COMPRA,
+               L.NUM_DOCUMENTO||L.ANO_DOCUMENTO||'-'||L.COD_ESPECIE||L.COD_INSTITUICAO||'-'||F.COD_FORNECEDOR NRO_ATA,
+               ACM.COD_TIPO_AUTORIZACAO,
+               L.NUM_DOCUMENTO,
+               L.ANO_DOCUMENTO,
+               L.COD_ESPECIE,
+               L.COD_INSTITUICAO,
+               F.COD_FORNECEDOR,
+               ACM.COD_MATERIAL,
+               M.NOM_MATERIAL,
+               ACM.NUM_PEDIDO_COMPRA,
+               ACM.ANO_PEDIDO_COMPRA,
+               TAC.SGL_TIPO_AUTORIZACAO,
+               ACM.NUM_PEDIDO_COMPRA || '/' || ACM.ANO_PEDIDO_COMPRA PC_ATUAL,
+               TO_CHAR(ACM.DTA_INICIO_VALIDADE, 'DD/MM/YYYY') INICIO,
+               TO_CHAR(ACM.DTA_FIM_VALIDADE, 'DD/MM/YYYY') TERMINO,
+               TO_CHAR(ACM.DTA_NOTIFICACAO, 'DD/MM/YYYY') NOTIFICACAO,
+               ROUND((ACM.DTA_FIM_VALIDADE - ACM.DTA_NOTIFICACAO) / 30, 8) MESES_NOTIFICACAO,
+               ACM.IDF_AUTORIZACAO_REATIVADA,
+               F.COD_FORNECEDOR || ' - ' || F.NOM_FORNECEDOR FORNECEDOR,
+               DECODE((SELECT COUNT(*)
+                        FROM PEDIDO_COMPRA
+                       WHERE COD_MATERIAL = ACM.COD_MATERIAL
+                         AND IDF_TIPO_PEDIDO IN (3, 5, 6)
+                         AND NUM_PEDIDO_COMPRA || ANO_PEDIDO_COMPRA <>
+                             ACM.NUM_PEDIDO_COMPRA || ACM.ANO_PEDIDO_COMPRA
+                         AND IDF_ESTAGIO_PEDIDO NOT IN (8)
+                         AND DTA_PEDIDO_COMPRA >
+                             ACM.DTA_INICIO_VALIDADE + 30), 0, 'Não', 'Sim') PC_EMITIDO,
+               NVL(ACM.QTD_MAT_PERIODO, 0) QTD_MAT_PERIODO,
+               NVL(ACM.VLR_MATERIAL, 0) VLR_MATERIAL,
+               NVL((SELECT SUM(IAE.QTD_FORNECER * IAE.VLR_MATERIAL)
+                     FROM AUTORIZACAO_ENTREGA       AE,
+                          ITENS_AUTORIZACAO_ENTREGA IAE
+                    WHERE AE.NUM_AUTORIZACAO_ENTREGA = IAE.NUM_AUTORIZACAO_ENTREGA
+                      AND AE.ANO_AUTORIZACAO_ENTREGA = IAE.ANO_AUTORIZACAO_ENTREGA
+                      AND AE.COD_INSTITUICAO = IAE.COD_INSTITUICAO
+                      AND AE.DTA_EMISSAO BETWEEN ACM.DTA_INICIO_VALIDADE AND
+                          ACM.DTA_FIM_VALIDADE
+                      AND IAE.NUM_PEDIDO_COMPRA = ACM.NUM_PEDIDO_COMPRA
+                      AND IAE.ANO_PEDIDO_COMPRA = ACM.ANO_PEDIDO_COMPRA),
+                   0) VLR_FATURADO,
+               NVL((SELECT SUM(IAE.QTD_FORNECER)
+                     FROM AUTORIZACAO_ENTREGA       AE,
+                          ITENS_AUTORIZACAO_ENTREGA IAE
+                    WHERE AE.NUM_AUTORIZACAO_ENTREGA = IAE.NUM_AUTORIZACAO_ENTREGA
+                      AND AE.ANO_AUTORIZACAO_ENTREGA = IAE.ANO_AUTORIZACAO_ENTREGA
+                      AND AE.COD_INSTITUICAO = IAE.COD_INSTITUICAO
+                      AND AE.DTA_EMISSAO BETWEEN ACM.DTA_INICIO_VALIDADE AND
+                          ACM.DTA_FIM_VALIDADE
+                      AND IAE.NUM_PEDIDO_COMPRA = ACM.NUM_PEDIDO_COMPRA
+                      AND IAE.ANO_PEDIDO_COMPRA = ACM.ANO_PEDIDO_COMPRA),
+                   0) QTD_FATURADA
+          FROM AUTORIZACAO_COMPRA_MATERIAL ACM,
+               TIPO_AUTORIZACAO_COMPRA     TAC,
+               MATERIAL                    M,
+               GRUPO                       G,
+               PEDIDO_COMPRA               PC,
+               LICITACAO                   L,
+               FORNECEDOR                  F
+         WHERE ACM.COD_TIPO_AUTORIZACAO = TAC.COD_TIPO_AUTORIZACAO
+           AND ACM.COD_MATERIAL = M.COD_MATERIAL
+           AND ACM.COD_TIPO_AUTORIZACAO = 1
+           AND ACM.COD_INST_SISTEMA = 1
+           
+           AND ACM.DTA_FIM_VALIDADE > SYSDATE
+           
+           AND M.COD_GRUPO = G.COD_GRUPO
+           AND ACM.NUM_PEDIDO_COMPRA = PC.NUM_PEDIDO_COMPRA
+           AND ACM.ANO_PEDIDO_COMPRA = PC.ANO_PEDIDO_COMPRA
+           AND PC.NUM_AGRUPAMENTO = L.NUM_AGRUPAMENTO
+           AND ACM.COD_FORNECEDOR = F.COD_FORNECEDOR
+           AND G.COD_ALINEA = COD_ALINEA
+         ORDER BY ACM.DTA_FIM_VALIDADE) X
+         ORDER BY X.NRO_ATA;
