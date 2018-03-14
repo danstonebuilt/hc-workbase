@@ -1,1 +1,1 @@
-select * from v_busca_foto_cracha a where a.NUMEMP = 2 and a.NUMCAD = 13733
+select * from v_busca_foto_cracha a where a.NUMEMP = 2 and a.NUMCAD = 14586--13733

@@ -1,0 +1,1 @@
+mklink /J "%APPDATA%\Apple Computer\MobileSync\Backup" "E:\Backup"

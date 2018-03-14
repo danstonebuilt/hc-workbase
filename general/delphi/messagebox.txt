@@ -1,0 +1,8 @@
+if MessageBox(0, PChar('REGISTRO DE PREÇO AINDA NÃO DEFINIDO.. Deseja Sair ?'), 'Imprimir resumo', MB_ICONWARNING + MB_YESNO + MB_DEFBUTTON2 + MB_TASKMODAL) = ID_YES  then
+        Exit;
+
+
+if not blConfirma('O somatório das quantidades dos Fornecedores Vencedores está DIFERENTE da quantidade do aprovada para o item. Prosseguir assim mesmo?','S') then
+        begin
+	          Exit;
+		          end;
