@@ -1,0 +1,8 @@
+TReg_params = record
+    _cod_atribuicao_preg : Real;
+    _cod_atribuicao_dir : Real;
+    _cod_atribuicao_chef : Real;
+    _num_agrupamento : Integer;
+    _item_revogacao : Integer;
+    _folhas : string;
+end;

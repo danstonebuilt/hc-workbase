@@ -1,0 +1,5 @@
+Try
+    email._fStream := TFileStream.Create(OD.FileName, fmOpenRead);
+Except on E : Exception do
+    ShowMessage(E.ClassName+' error raised, with message : '+E.Message);
+end;

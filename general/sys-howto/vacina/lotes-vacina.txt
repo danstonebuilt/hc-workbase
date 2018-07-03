@@ -1,0 +1,3 @@
+O procedimento de cadastro de lote é feito na fármacia junto a nota de doação.
+Quem faz é o chefe da fármacia(Nilson)
+Incorporar lote de vacina => Farmácia(Recebe nota de doação).

@@ -1,2 +1,5 @@
 SBtnImprimirTriagemServico.Visible := ((PageControl1.ActivePage = TabSheet5) or (PageControl1.ActivePage = TabSheet2)) else
     SBtnImprimirTriagemServico.Visible := False;
+
+//Utilizar o namespace strutil
+_parametros._precoGlobal := StrToBool(ifthen(cbCasoGlobal.Checked, True, False));

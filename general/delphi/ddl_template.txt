@@ -1,0 +1,22 @@
+ try
+        frm_principal.db_hcrp.StartTransaction;
+        try
+           with q_aux do
+           begin
+              if Active then Close;
+
+             {Statements}
+
+             ExecSQL;
+             frm_principal.db_hcrp.Commit;
+             ShowMessage('Agendamento alterado com sucesso.');
+           end;
+          except on E: Exception do
+          begin
+               frm_principal.db_hcrp.Rollback;
+               ShowMessage(E.ClassName+' error raised, with message : '+E.Message);
+          end;
+        end;
+     finally
+        q_aux.Close;
+     end;

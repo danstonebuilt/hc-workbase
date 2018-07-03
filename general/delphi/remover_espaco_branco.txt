@@ -1,0 +1,1 @@
+str1 := StringReplace(s2, '', EmptyStr, [rfReplaceAll]);

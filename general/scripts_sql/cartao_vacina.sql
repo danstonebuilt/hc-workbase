@@ -1,4 +1,3 @@
-
 /*Ver Cartão de vácina*/
 select 
   (SELECT tp.dsc_tipo_vacina FROM tipo_vacina tp
