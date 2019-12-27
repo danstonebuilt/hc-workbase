@@ -1,3 +1,0 @@
-@ECHO OFF
-explorer %DN-CONT%
-PAUSE

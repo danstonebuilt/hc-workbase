@@ -1,3 +1,0 @@
-ddlTesteLimpeza.DataSource = list.Select(column => column.BemPatrimonial.DscComplementar).ToList();
-ddlTesteLimpeza.DataBind();
-ddlTesteLimpeza.Items.Insert(0, new ListItem("Please select", ""));

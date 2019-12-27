@@ -1,2 +1,0 @@
-create or replace public synonym PCG_LIBERA_ACESSO_CERTDIG
-  for GENERICO.PCG_LIBERA_ACESSO_CERTDIG;

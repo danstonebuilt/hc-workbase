@@ -1,1 +1,0 @@
- ExibirMensagem(TipoMensagem.Erro, "ERRO : " + ex.Message);

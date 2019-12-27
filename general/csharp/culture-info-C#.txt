@@ -1,1 +1,0 @@
-DateTime.Now.ToString(new CultureInfo("en-GB"));

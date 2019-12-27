@@ -1,1 +1,0 @@
-if(Pos('CECIN', UpperCase(s_sgl_loc_origem))  <> 0 ) then

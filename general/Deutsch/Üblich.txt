@@ -1,4 +1,0 @@
-﻿#Zeitausdrücke
-
-- Heute ist Dienstag
-

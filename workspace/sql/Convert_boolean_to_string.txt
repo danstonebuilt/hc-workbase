@@ -1,1 +1,0 @@
-l_response := CASE WHEN l_result THEN 'TRUE' ELSE 'FALSE' END;

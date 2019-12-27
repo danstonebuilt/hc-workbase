@@ -1,1 +1,0 @@
- Response.Redirect(Request.Url.AbsolutePath + string.Format("?isbt_code={0}&nome_material={1}&desc_material={2}", args[0], args[1], args[2]));

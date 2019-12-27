@@ -1,6 +1,0 @@
-/*Add attributes*/
-btnImprimir.Attributes.Add("disabled", "disabled");
-
-/*Remove attributes*/
-btnImprimir.Attributes.Remove("disabled");
-
